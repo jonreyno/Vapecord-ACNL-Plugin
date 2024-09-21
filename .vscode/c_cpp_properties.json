@@ -1,34 +1,37 @@
 {
     "env": {
-        "devkitpro" : "/opt/devkitpro",
-        "devkitarm" : "C:/devkitPro/devkitARM",
-        "ctrulib" : "C:/devkitPro/libctru"
+        "devkitpro": "/opt/devkitpro",
+        "devkitarm": "/opt/devkitPro/devkitARM",
+        "ctrulib": "/opt/devkitPro/libctru"
     },
     "configurations": [
         {
             "name": "Library - Unix",
             "includePath": [
                 "${default}",
-                "C:/devkitPro/devkitARM/arm-none-eabi/include/**",
-                "C:/devkitPro/devkitARM/lib/**",
-                "C:/devkitPro/libctru/include",
+                "/opt/devkitPro/devkitARM/arm-none-eabi/include/**",
+                "/opt/devkitPro/devkitARM/lib/**",
+                "/opt/devkitPro/libctru/include",
                 "${workspaceFolder}/libctrpf/include",
-                "C:/devkitPro/portlibs/3ds/bin",
+                "/opt/devkitPro/portlibs/3ds/bin",
                 "${workspaceFolder}/includes"
             ],
-            "defines": ["ARM11", "_3DS"],
-            "compilerPath": "C:/devkitPro/devkitARM/bin/arm-none-eabi-g++.exe",
+            "defines": [
+                "ARM11",
+                "_3DS"
+            ],
+            "compilerPath": "/opt/devkitPro/devkitARM/bin/arm-none-eabi-g++",
             "browse": {
                 "path": [
                     "${workspaceFolder}/libctrpf/include/**",
-                    "C:/devkitPro/libctru/include/**"
+                    "/opt/devkitPro/libctru/include/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
             "cStandard": "c11",
             "cppStandard": "gnu++20",
-            "intelliSenseMode": "gcc-arm"  
+            "intelliSenseMode": "gcc-arm"
         }
     ],
     "version": 4

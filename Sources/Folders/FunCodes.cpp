@@ -151,7 +151,7 @@ namespace CTRPluginFramework {
 	void maxturbo(MenuEntry *entry) { 
 		u32 maxT = *(u32 *)Code::max.addr - 0x31C;
 
-        Sleep(Seconds(0.0085F));
+        Sleep(Milliseconds(200));
         Process::Write8(maxT, 0); //abxy
         Process::Write8(maxT + 2, 0); //dpad
     }

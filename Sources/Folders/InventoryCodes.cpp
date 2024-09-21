@@ -165,11 +165,53 @@ namespace CTRPluginFramework {
 		restoreButton.Call<void>(invData, *(u32 *)argData.addr, *(u32 *)(argData.addr + 4));
 	}
 
+	static bool allItemsBuyable = false;
+
+	void SetAllItemsBuyable(bool buyable)
+	{
+		static Address AllItemsBuyable(0x70E494, 0x70D944, 0x70D4B4, 0x70D48C, 0x70CC60, 0x70CC38, 0x70C808, 0x70C7E0);
+		
+		if (buyable) {
+			Process::Patch(AllItemsBuyable.addr, 0xE3A00000);
+			Process::Patch(AllItemsBuyable.addr + 4, 0xEA00000B);
+			allItemsBuyable = true;
+		} else {
+			Process::Patch(AllItemsBuyable.addr, 0x03A00001);
+			Process::Patch(AllItemsBuyable.addr + 4, 0x0A00000B);
+			allItemsBuyable = false;
+		}
+	}
+
+	void CycleCatalogFurnitureOption1(bool forward)
+	{
+		static Address FurnitureOption1(0x32D97683);
+		
+		u8 val = 0;
+		Process::Read8(FurnitureOption1.addr, val);
+		
+		val += forward ? 4 : -4;
+		val = val > 0x34 ? 0 : val < 0 ? 0x34 : val;
+		
+		Process::Write8(FurnitureOption1.addr, val);
+	}
+
+	void CycleCatalogFurnitureOption2(bool forward)
+	{
+		static Address FurnitureOption2(0x32D97682);
+		
+		u8 val = 0;
+		Process::Read8(FurnitureOption2.addr, val);
+		
+		val += forward ? 1 : -1;
+		val = val > 0x1F3 ? 0 : val < 0 ? 0x1F3 : val;
+		
+		Process::Write8(FurnitureOption2.addr, val);
+	}
+
 	static bool isCatalogOpen = false;
 //Catalog To Pockets
 	void catalog(MenuEntry *entry) {
 		static Hook catalogHook;
-		static Address AllItemsBuyable(0x70E494, 0x70D944, 0x70D4B4, 0x70D48C, 0x70CC60, 0x70CC38, 0x70C808, 0x70C7E0);
 		static Address cHook(0x21B4B0, 0x21AEF4, 0x21B4D0, 0x21B4D0, 0x21B3F0, 0x21B3F0, 0x21B3BC, 0x21B3BC);
 
 		if(entry->WasJustActivated()) {
@@ -178,8 +220,7 @@ namespace CTRPluginFramework {
 
 			catalogHook.Enable();
 
-			Process::Patch(AllItemsBuyable.addr, 0xE3A00000);
-			Process::Patch(AllItemsBuyable.addr + 4, 0xEA00000B);
+			SetAllItemsBuyable(false);
 		}
 
 		if(entry->Hotkeys[0].IsPressed()) {
@@ -188,15 +229,49 @@ namespace CTRPluginFramework {
 				return;
 			}
 			
-		//if no menu is opened 
+			//if no menu is opened 
 			if(GameHelper::BaseInvPointer() == 0) {	
 				GameHelper::Catalog();
 				return;
 			}	
 		}
 		
-		if(Inventory::GetCurrent() == 0x7C && !isCatalogOpen) 
+		if(Inventory::GetCurrent() == 0x7C && !isCatalogOpen) {
 			isCatalogOpen = true;
+		}
+		
+		if(isCatalogOpen)
+		{
+			// Toggle all items buyable
+			if(entry->Hotkeys[1].IsPressed()) {
+				SetAllItemsBuyable(!allItemsBuyable);
+				
+				if (allItemsBuyable)
+				{
+					OSD::Notify("All items buyable ON!", Color::Green);
+				}
+				else
+				{
+					OSD::Notify("All items buyable OFF!", Color::Red);
+				}
+			}
+			
+			if(entry->Hotkeys[2].IsPressed()) {
+				CycleCatalogFurnitureOption1(false);
+			}
+			
+			if(entry->Hotkeys[3].IsPressed()) {
+				CycleCatalogFurnitureOption1(true);
+			}
+			
+			if(entry->Hotkeys[4].IsPressed()) {
+				CycleCatalogFurnitureOption2(false);
+			}
+			
+			if(entry->Hotkeys[5].IsPressed()) {
+				CycleCatalogFurnitureOption2(true);
+			}
+		}
 		
 		if(Inventory::GetCurrent() != 0x7C && isCatalogOpen) {
 			Animation::Idle();
@@ -205,9 +280,7 @@ namespace CTRPluginFramework {
 		
 		if(!entry->IsActivated()) {
 			catalogHook.Disable();
-			Process::Patch(AllItemsBuyable.addr, 0x03A00001);
-			Process::Patch(AllItemsBuyable.addr + 4, 0x0A00000B);
-
+			SetAllItemsBuyable(false);
 			isCatalogOpen = false;
 		}
 	}

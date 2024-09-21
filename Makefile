@@ -113,7 +113,7 @@ $(OUTPUT).elf : $(OFILES)
 %.3gx: %.elf
 #---------------------------------------------------------------------------------
 	@echo creating $(notdir $@)
-	@3gxtool -s -d $(word 1, $^) $(TOPDIR)/$(PLGINFO) $@
+	@/opt/homebrew/bin/wine /Users/jonreyno/Documents/GitHub/ACNL-NTR-Cheats/3gxtool.exe -s -d $(word 1, $^) $(TOPDIR)/$(PLGINFO) $@
 
 -include $(DEPENDS)
 

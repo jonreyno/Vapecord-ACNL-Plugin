@@ -101,7 +101,11 @@ namespace CTRPluginFramework {
 		})),
 		INVC->Append(EntryWithHotkey(new MenuEntry("CATALOG_TO_POCKET", catalog, "CATALOG_TO_POCKET_NOTE"), { 
 			Hotkey(Key::L | Key::DPadRight, "CATALOG_TO_POCKET_KEY1"), 
-			Hotkey(Key::L | Key::Y, "CATALOG_TO_POCKET_KEY2") 
+			Hotkey(Key::L | Key::Y, "CATALOG_TO_POCKET_KEY2"),
+			Hotkey(Key::DPadLeft, "CATALOG_TO_POCKET_KEY3"),
+			Hotkey(Key::DPadRight, "CATALOG_TO_POCKET_KEY4"),
+			Hotkey(Key::L, "CATALOG_TO_POCKET_KEY5"),
+			Hotkey(Key::R, "CATALOG_TO_POCKET_KEY6")
 		})),
 		INVC->Append(EntryWithHotkey(new MenuEntry("CHAT_T2I", chatt2i, "CHAT_T2I_NOTE"), { 
 			Hotkey(Key::R | Key::DPadLeft, "CHAT_T2I_KEY1") 

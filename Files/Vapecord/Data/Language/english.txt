@@ -1,4 +1,4 @@
-﻿#This File is used for the Vapecord ACNL Plugin 1.9.5
+#This File is used for the Vapecord ACNL Plugin 1.9.5
 #If you want to edit Text inside the Plugin Change the Text behind the "::" 
 #"\n" means new line so do not remove that
 #Every Line that starts with "#" is just a note and does not need to be changed
@@ -250,7 +250,11 @@ DUPE_ITEMS_KEY2 :: Duplicate All
 CATALOG_TO_POCKET :: Catalog To Pocket
 CATALOG_TO_POCKET_NOTE :: Lets you spawn catalog items instantly into your inventory.\n 
 CATALOG_TO_POCKET_KEY1 :: Open Catalog/Get Item
-CATALOG_TO_POCKET_KEY2 :: Hide Info
+CATALOG_TO_POCKET_KEY2 :: Toggle All Items Buyable
+CATALOG_TO_POCKET_KEY3 :: Custom Furniture Option 1 - Cycle Left
+CATALOG_TO_POCKET_KEY4 :: Custom Furniture Option 1 - Cycle Right
+CATALOG_TO_POCKET_KEY5 :: Custom Furniture Option 2 - Cycle Left
+CATALOG_TO_POCKET_KEY6 :: Custom Furniture Option 2 - Cycle Right
 
 #Chat Text2Item
 CHAT_T2I :: Chat Text To Item
