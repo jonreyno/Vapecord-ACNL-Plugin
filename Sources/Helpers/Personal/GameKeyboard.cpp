@@ -106,7 +106,7 @@ namespace CTRPluginFramework {
 		return *(bool *)(*(u32 *)(*(u32 *)(Code::ChatPoint.addr) + 0x10) + 0x98 + 0x11B1) != true;
 	}
 
-	bool GameKeyboard::Copy(std::string& str, int pos, int lenght) {
+	bool GameKeyboard::Copy(std::string& str, int pos, int length) {
 		if(!GameKeyboard::IsOpen())
 			return false;
 
@@ -115,7 +115,7 @@ namespace CTRPluginFramework {
 
 		u32 ChatText = *(u32 *)(*(u32 *)(Code::ChatPoint.addr) + 0x10);
 
-		return Process::ReadString(ChatText + pos, str, lenght, StringFormat::Utf16);
+		return Process::ReadString(ChatText + pos, str, length, StringFormat::Utf16);
 	}
 
 	bool GameKeyboard::ConvertToItemID(std::string& str, Item &ItemID) {

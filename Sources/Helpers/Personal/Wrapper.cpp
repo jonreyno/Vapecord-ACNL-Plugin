@@ -24,13 +24,13 @@ namespace CTRPluginFramework {
 		va_start(dumps, dump);
 
 		while(dump != nullptr) { //the last arg needs to be nullptr in order for the while loop to exit
-			if(file.Dump(*(u32 *)&dump->Address, dump->Lenght) != 0) {
+			if(file.Dump(*(u32 *)&dump->Address, dump->Length) != 0) {
 				MessageBox(Language->Get("DUMP_ERROR1")).SetClear(ClearScreen::Top)();
 				return ExHandler::ERROR_DRD; //error dumping file
 			}
 
 			OSD::Notify(Utils::Format("Address: %08X", dump->Address));
-			OSD::Notify(Utils::Format("Lenght: %08X", dump->Lenght));
+			OSD::Notify(Utils::Format("Length: %08X", dump->Length));
 
 			dump = va_arg(dumps, WrapLoc*); //go to next argument		
 		}
@@ -127,7 +127,7 @@ namespace CTRPluginFramework {
 		va_start(restore, rest);
 
 		while(rest != nullptr) {
-			if(file.Inject(*(u32 *)&rest->Address, rest->Lenght) != 0) {
+			if(file.Inject(*(u32 *)&rest->Address, rest->Length) != 0) {
 				if(HasMSGBox)
 					MessageBox(Language->Get("RESTORE_ERROR1")).SetClear(ClearScreen::Top)();
 

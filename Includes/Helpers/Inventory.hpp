@@ -14,7 +14,7 @@ namespace CTRPluginFramework {
 	};
 	
 	extern ItemVec* ItemList;
-	extern int ItemFileLenght;
+	extern int ItemFileLength;
 	extern bool ItemFileExists;
 
 	using slotReader = void(*)(u32, u8);

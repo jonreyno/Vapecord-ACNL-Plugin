@@ -8,7 +8,7 @@ namespace CTRPluginFramework {
 	
 	struct WrapLoc {
 		u32 *Address;
-		int Lenght;
+		int Length;
 	};
 
 	enum ExHandler {

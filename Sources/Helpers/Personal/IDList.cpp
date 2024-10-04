@@ -223,7 +223,7 @@ namespace CTRPluginFramework {
 	}
 	
 	bool IDList::GetSeedName(Item itemID, std::string& str) {
-		for(int i = 0; i < ItemFileLenght; i++) {
+		for(int i = 0; i < ItemFileLength; i++) {
 			if(ItemList->ID[i] == itemID) {
 				str = ItemList->Name[i];
 				return true;

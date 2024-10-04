@@ -16,3 +16,5 @@ desktop.ini
 send.bat
 send.py
 sendpost.txt
+.DS_Store
+Vapecord-ACNL-Plugin.xcodeproj/

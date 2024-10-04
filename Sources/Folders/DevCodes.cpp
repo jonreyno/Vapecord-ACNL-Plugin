@@ -46,7 +46,7 @@ namespace CTRPluginFramework {
 					break;
 					
 					case 1:
-						Wrap::KB<u32>("The length of the dump.", true, 8, *(u32 *)&cdump.Lenght, *(u32 *)&cdump.Lenght);
+						Wrap::KB<u32>("The length of the dump.", true, 8, *(u32 *)&cdump.Length, *(u32 *)&cdump.Length);
 					break;
 					
 					case 2: {
