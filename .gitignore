@@ -18,3 +18,4 @@ send.py
 sendpost.txt
 .DS_Store
 Vapecord-ACNL-Plugin.xcodeproj/
+libctrpf/lib/libctrpfd.a
