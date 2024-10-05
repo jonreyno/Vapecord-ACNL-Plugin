@@ -115,6 +115,7 @@ namespace CTRPluginFramework {
 		INVC->Append(new MenuEntry("SAVE_MENU_CHANGER", nullptr, MenuChanger, "SAVE_MENU_CHANGER_NOTE")),
 		INVC->Append(new MenuEntry("GET_SET", nullptr, getset, "GET_SET_NOTE")),
 		INVC->Append(new MenuEntry("CUSTOM_BUTTON", nullptr, SettingsButton, "CUSTOM_BUTTON_NOTE")),
+		INVC->Append(new MenuEntry("AUTO_STACK_NAME", autostack, "AUTO_STACK_NOTE")),
 		menu->Append(INVC);
 
 	///////////////////////

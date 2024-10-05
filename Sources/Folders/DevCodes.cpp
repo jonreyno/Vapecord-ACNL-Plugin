@@ -2063,7 +2063,7 @@ namespace CTRPluginFramework {
 		if(Controller::IsKeysDown(Key::R)) {
 			if(random) {
 				FishID.ID = Utils::Random(0x22E1, 0x234A);
-				if(GameHelper::GetItemCategorie(FishID) != Item_Categories::Fish) 
+				if(GameHelper::GetItemCategory(FishID) != Item_Category::Fish) 
 					return;
 			}
 

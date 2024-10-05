@@ -92,6 +92,14 @@ namespace CTRPluginFramework
         return (0);
     }
 
+    int     OSD::NotifyDebug(const std::string &str, const bool show, const Color &foreground, const Color &background)
+    {
+        if(show) {
+            return Notify(str, foreground, background);
+        }
+        return -1;
+    }
+
     void    OSD::Run(OSDCallback cb)
     {
         OSDImpl::Lock();

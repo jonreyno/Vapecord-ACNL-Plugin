@@ -19,7 +19,7 @@ namespace CTRPluginFramework {
         Empty = 8
     };
 
-    enum Item_Categories {
+    enum Item_Category {
         MiiHead = 0, //(0x2000)
         NPCBuildingItems, //(0x2061 -> 0x2074)
         Bells, //(0x20AC -> 0x2117)

@@ -243,6 +243,10 @@ DUPE_ITEMS_NOTE :: Te deja duplicar un item del primer hueco del inventario al s
 DUPE_ITEMS_KEY1 :: Duplicar
 DUPE_ITEMS_KEY2 :: Duplicar Todo
 
+#Auto stack
+AUTO_STACK_NAME :: Auto Item Stacker
+AUTO_STACK_NOTE :: Automatically stacks items that can be stacked (fruit, money) on pickup. \n
+
 #Catalog To Pocket
 CATALOG_TO_POCKET :: Catalogo al bolsillo
 CATALOG_TO_POCKET_NOTE :: Te deja spawnear los items del catálogo instantaneamente en tu inventario.\n 

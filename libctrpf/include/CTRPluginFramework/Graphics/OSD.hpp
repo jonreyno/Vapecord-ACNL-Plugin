@@ -104,6 +104,17 @@ namespace CTRPluginFramework
         static int      Notify(const std::string &str, const Color &foreground = Color::White, const Color &background = Color::Black);
 
         /**
+         * \brief Send a notification on the top screen, a notification duration is 5 seconds\n
+         * A maximum of 50 notifications can be queued
+         * \param str Text of the notification
+         * \param show Whether to show the notification at all (useful for turning off a series of debug notifications)
+         * \param foreground The color of the text (Default: blank)
+         * \param background The color of the background (Default: black)
+         * \return 0 if success, -1 if the notification couldn't be added
+         */
+        static int      NotifyDebug(const std::string &str, const bool show = true, const Color &foreground = Color::White, const Color &background = Color::Black);
+        
+        /**
          * \brief Add a callback to the OSD system which will be called at each game's frame
          * \param cb The callback to add
          */

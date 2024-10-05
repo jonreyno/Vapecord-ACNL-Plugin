@@ -51,9 +51,9 @@ namespace CTRPluginFramework {
 		SetHook(CatalogPHook1, CatalogPOffset1.addr, (u32)CatalogPatch_Keyboard, USE_LR_TO_RETURN);
 		SetHook(CatalogPHook2, CatalogPOffset2.addr, (u32)CatalogPatch_SearchFunction, USE_LR_TO_RETURN);
 		
-		static Hook IPHook;	
-		static const Address IPOffset(0x59A258, 0x599770, 0x5992A0, 0x5992A0, 0x598B90, 0x598B90, 0x598864, 0x598864);
-		SetHook(IPHook, IPOffset.addr, (u32)InvalidPickStop, USE_LR_TO_RETURN);
+		//static Hook IPHook;	
+		//static const Address IPOffset(0x59A258, 0x599770, 0x5992A0, 0x5992A0, 0x598B90, 0x598B90, 0x598864, 0x598864);
+		//SetHook(IPHook, IPOffset.addr, (u32)InvalidPickStop, USE_LR_TO_RETURN);
 
 		static Hook InvDropHook, InvPlantHook;
 		static const Address InvDropOffset(0x597850, 0x596D68, 0x596898, 0x596898, 0x596188, 0x596188, 0x595E5C, 0x595E5C);

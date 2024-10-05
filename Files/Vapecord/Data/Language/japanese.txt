@@ -248,6 +248,10 @@ DUPE_ITEMS_NOTE :: 1スロットにあるアイテムを他のスロットにコ
 DUPE_ITEMS_KEY1 :: 2スロット目にコピー
 DUPE_ITEMS_KEY2 :: 全スロットにコピー
 
+#Auto stack
+AUTO_STACK_NAME :: Auto Item Stacker
+AUTO_STACK_NOTE :: Automatically stacks items that can be stacked (fruit, money) on pickup. \n
+
 #Catalog To Pocket
 CATALOG_TO_POCKET :: 注文商品をポケットに配置
 CATALOG_TO_POCKET_NOTE :: 注文したアイテムをポケットに配置します。

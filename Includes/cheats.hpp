@@ -60,6 +60,7 @@ namespace CTRPluginFramework {
 	void ClearInventory(MenuEntry *entry);
 	void getset(MenuEntry *entry);
 	void SettingsButton(MenuEntry *entry);
+	void autostack(MenuEntry *entry);
 	
 //Player Codes Folder
 	//Player Save Codes

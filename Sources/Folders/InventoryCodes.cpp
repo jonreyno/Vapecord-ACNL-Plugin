@@ -594,4 +594,178 @@ namespace CTRPluginFramework {
 			}
 		}
 	}
+
+	const bool ShowStackDebug = false;
+
+	void StackItem(Item *item) {
+		Item_Category cat = GameHelper::GetItemCategory(*item);
+		u8 matchSlot = 0;
+		Item match;
+		Item empty = Item{0x7FFE, 0x8000};
+
+		// Stack Fruit
+		if(cat == Item_Category::Fruits || cat == Item_Category::PerfectFruits
+		|| cat == Item_Category::FruitBaskets || cat == Item_Category::PerfectFruitBaskets) {
+			while (matchSlot < 16) {
+				Inventory::ReadSlot(matchSlot, match);
+
+				if(match.ID == item->ID) {
+					//converts single fruit to fruit basket with flag 1 (aka two fruits in basket)
+					if(cat == Item_Category::Fruits || cat == Item_Category::PerfectFruits) {
+						Inventory::WriteSlot(matchSlot, ((item->ID + 0x17) + (1 << 16)));
+						*item = empty;
+						OSD::NotifyDebug(Utils::Format("Made it into a basket in slot: %d", matchSlot), ShowStackDebug);
+						return;
+					}
+					//combines fruit baskets
+					else if(match.Flags < 8) {
+						u16 flagMatch = match.Flags;
+						u16 flagNew = item->Flags;
+
+						if((flagMatch + flagNew + 1) <= 8) { //as flag "1" is 2 fruits
+							OSD::NotifyDebug(Utils::Format("Slot: %2X || Flag Sum was below or 8", matchSlot), ShowStackDebug);
+							Inventory::WriteSlot(matchSlot, Item(item->ID, flagMatch + flagNew + 1)); //adds new added flag to fruit basket
+							*item = empty;
+							return;
+						}
+						else {
+							int diff = 8 - flagMatch;
+							Inventory::WriteSlot(matchSlot, Item(item->ID, flagMatch + diff)); //adds new added flag to fruit basket
+							
+							flagNew -= diff;
+							if(flagNew >= 1) {
+								item->Flags = flagNew; //adds new added flag to fruit basket
+								OSD::NotifyDebug(Utils::Format("Slot: %2X || Added %2X to the basket", matchSlot, diff), ShowStackDebug);
+								continue; // Look for more baskets to combine with
+							}
+							else if (flagNew == 0) {
+								item->ID -= 0x17; //revert to a single fruit
+								item->Flags = 0;
+								OSD::NotifyDebug(Utils::Format("Slot: %2X || Added %2X to the basket", matchSlot, diff), ShowStackDebug);
+								return;
+							}
+						}
+					}
+				}
+				//Basket Check
+				else if((cat == Item_Category::Fruits || cat == Item_Category::PerfectFruits) && (match.ID == item->ID + 0x17)) {
+					//If basket is not full
+					if(match.Flags < 8) {
+						//adds one to the flag of the fruit basket
+						match.Flags += 1;
+						Inventory::WriteSlot(matchSlot, match);
+						*item = empty;
+						OSD::NotifyDebug(Utils::Format("Added it into the basket in slot: %d", matchSlot), ShowStackDebug);
+						return;
+					}
+				}
+				matchSlot++;
+			}
+		}
+		// Stack Bells
+		else if(cat == Item_Category::Bells) {
+			u32 itemValue = GameHelper::GetItemValue(*item);
+			u32 newValue = itemValue;
+			OSD::NotifyDebug(Utils::Format("Picked up: %d", newValue), ShowStackDebug);
+			/*
+			// First add as much to the wallet as possible
+			ACNL_Player *player = Player::GetSaveData();
+			int pocketMoney = GameHelper::DecryptValue(&player->PocketMoney);
+			OSD::NotifyDebug(Utils::Format("Wallet: %d", pocketMoney), ShowStackDebug);
+			
+			pocketMoney += newValue;
+			newValue = pocketMoney > 99999 ? itemValue < 1000 ? (pocketMoney / 100 * 100) - 99900 : (pocketMoney / 1000 * 1000) - 99000 : 0;
+			pocketMoney -= newValue;
+			GameHelper::EncryptValue(&player->PocketMoney, pocketMoney);
+
+			OSD::NotifyDebug(Utils::Format("Added %d to the wallet (%d total).", itemValue - newValue, pocketMoney), ShowStackDebug);*/
+			
+			// Next try to stack with existing pocket money
+			if(newValue > 0) {
+				Item match;
+				u8 matchSlot;
+
+				while (matchSlot < 16 && newValue > 0) {
+					Inventory::ReadSlot(matchSlot, match);
+					if(GameHelper::GetItemCategory(match) != Item_Category::Bells){
+						matchSlot++;
+						continue;
+					}
+
+					u32 matchValue = GameHelper::GetItemValue(match);
+					u32 newMatchValue = matchValue + newValue;
+
+					if (newValue < 1000 && matchValue < 1000) {
+						newValue = newMatchValue > 1000 ? newMatchValue - 1000 : 0;
+						if(newMatchValue >= 1000){
+							Inventory::WriteSlot(matchSlot, Item{0x20b5, 0});
+							OSD::NotifyDebug(Utils::Format("Added %d to the bag in slot %d.", newMatchValue - matchValue, matchSlot), ShowStackDebug);
+						}
+						else {
+							Inventory::WriteSlot(matchSlot, GameHelper::GetBellsByValue(newMatchValue));
+							OSD::NotifyDebug(Utils::Format("Added %d to the bag in slot %d.", newMatchValue - matchValue, matchSlot), ShowStackDebug);
+						}
+					}
+					else if (newValue >= 1000 && matchValue >= 1000) {
+						newValue = newMatchValue > 99000 ? newMatchValue - 99000 : 0;
+						if(newMatchValue - matchValue > 0) {
+							Inventory::WriteSlot(matchSlot, GameHelper::GetBellsByValue(newMatchValue));
+							OSD::NotifyDebug(Utils::Format("Added %d to the bag in slot %d.", newMatchValue - matchValue, matchSlot), ShowStackDebug);
+						}
+					}
+					matchSlot++;
+				}
+			}
+			
+			// Leftover money goes to the pocket
+			if(newValue > 0) {
+				item->ID = GameHelper::GetBellsByValue(newValue).ID;
+				OSD::NotifyDebug(Utils::Format("Added the leftover %d to the pocket.", newValue), ShowStackDebug);
+			}
+			else {
+				*item = empty;
+			}
+		}
+	}
+
+	//Hook stack on pickup
+	u32 StackOnPickup(u8 ID, Item *ItemToReplace, Item *ItemToPlace, Item *ItemToShow, u8 worldx, u8 worldy) {	
+		if(IDList::ItemValid(*ItemToReplace, true)) {
+			std::string itemName = "";
+
+			if(IDList::GetSeedName(*ItemToReplace, itemName)) {
+				OSD::NotifyDebug(Utils::Format("Pick up %d: %s (%04X)", ID, itemName.c_str(), ItemToReplace->ID), ShowStackDebug);
+			}
+			else {
+				OSD::NotifyDebug(Utils::Format("Pick up %d: %08X", ID, ItemToReplace->ID), ShowStackDebug);
+			}
+
+			StackItem(ItemToReplace);
+
+			// If our inventory is full, but we stacked the item, don't say it's full
+			if(ID == 2 && ItemToReplace->ID == 0x7FFE) {
+				ID = 1;
+			}
+
+			const HookContext &curr = HookContext::GetCurrent();
+			static Address func(decodeARMBranch(curr.targetAddress, curr.overwrittenInstr));
+			return func.Call<u32>(ID, ItemToReplace, ItemToPlace, ItemToShow, worldx, worldy, 0, 0, 0, 0, 0);
+		}
+		return 0xFFFFFFFF;
+	}
+
+	void autostack(MenuEntry *entry) {
+		static Hook ASHook;	
+		static const Address ASOffset(0x59A258, 0x599770, 0x5992A0, 0x5992A0, 0x598B90, 0x598B90, 0x598864, 0x598864);
+
+		if(entry->WasJustActivated()) {
+			ASHook.Initialize(ASOffset.addr, (u32)StackOnPickup);
+			ASHook.SetFlags(USE_LR_TO_RETURN);
+			ASHook.Enable();
+		}
+		
+		if(!entry->IsActivated()) {
+			ASHook.Disable();
+		}
+	}
 }

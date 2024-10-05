@@ -249,6 +249,10 @@ DUPE_ITEMS_NOTE :: Duplica un oggetto dal primo slot dell'inventario al secondo.
 DUPE_ITEMS_KEY1 :: Duplica
 DUPE_ITEMS_KEY2 :: Duplica Tutto
 
+#Auto stack
+AUTO_STACK_NAME :: Auto Item Stacker
+AUTO_STACK_NOTE :: Automatically stacks items that can be stacked (fruit, money) on pickup. \n
+
 #Catalog To Pocket
 CATALOG_TO_POCKET :: Oggetti Catalogo
 CATALOG_TO_POCKET_NOTE :: Genera gli oggetti del catalogo direttamente nel tuo inventario.\n 

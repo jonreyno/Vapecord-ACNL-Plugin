@@ -26,7 +26,7 @@ namespace CTRPluginFramework {
 		//u32				GetFriend();
 		//u32 				GetExhibition();
 
-		Item_Categories 	GetItemCategorie(Item itemID);
+		Item_Category 	GetItemCategory(Item itemID);
 	//value display
 		bool 				SetValueDisplay(u8 type);
 		void 				ResetValueDisplay(void);
@@ -39,6 +39,8 @@ namespace CTRPluginFramework {
 		void 				SetBadges(u8 badge, u8 type, bool WithStats);
 		int					DecryptValue(u64 *position);
 		void				EncryptValue(u64 *position, int moneyamount);
+		u32					GetItemValue(Item item);
+		Item				GetBellsByValue(u32 value);
 	//Flower Converter
 		void				ToIndoorFlowers(Item& input);
 		void				ToOutdoorFlowers(Item& input);

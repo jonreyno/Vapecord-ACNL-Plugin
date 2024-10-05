@@ -26,9 +26,9 @@ namespace CTRPluginFramework {
 		return (ACNL_BuildingData *)addr;
 	}
 
-	Item_Categories GameHelper::GetItemCategorie(Item itemID) {
-		static Address getCategorie(0x2FCBC4, 0x2FCB34, 0x2FCC4C, 0x2FCC4C, 0x2FCB64, 0x2FCB64, 0x2FCB4C, 0x2FCB4C);
-		return getCategorie.Call<Item_Categories>(&itemID);
+	Item_Category GameHelper::GetItemCategory(Item itemID) {
+		static Address getCategory(0x2FCBC4, 0x2FCB34, 0x2FCC4C, 0x2FCC4C, 0x2FCB64, 0x2FCB64, 0x2FCB4C, 0x2FCB4C);
+		return getCategory.Call<Item_Category>(&itemID);
 	}
 
 	void GameHelper::PlaySound(u16 soundID) {
@@ -317,8 +317,44 @@ namespace CTRPluginFramework {
 		moneyset.Call<void>(position, moneyamount);
 	}
 
-//set badges	
-	void GameHelper::SetBadges(u8 badge, u8 type, bool WithStats) {
+//return value of the item
+    u32 GameHelper::GetItemValue(Item item)
+    {
+		Item_Category cat = GameHelper::GetItemCategory(item);
+		u32 value = 0;
+
+		if(cat == Item_Category::Bells){
+			if(IDList::ValidID(item.ID, 0x20ac, 0x20b4)) {
+				value = (item.ID - 0x20ab) * 100;
+			}
+			else if(IDList::ValidID(item.ID, 0x20b5, 0x2117)) {
+				value = (item.ID - 0x20b4) * 1000;
+			}
+		}
+
+        return value;
+    }
+
+// return bell item that matches value
+    Item GameHelper::GetBellsByValue(u32 value)
+    {
+		u16 bellId = 0x20ac;
+
+		if(value > 0 && value < 1000) {
+			bellId = 0x20ab + value/100;
+		}
+		else if(value >= 1000 && value <= 99000) {
+			bellId = 0x20b4 + value/1000;
+		}
+		else {
+			bellId = 0x7FFE;
+		}
+
+        return Item(bellId, 0);
+    }
+
+// set badges
+    void GameHelper::SetBadges(u8 badge, u8 type, bool WithStats) {
 		ACNL_Player *player = Player::GetSaveData();
 		if(!player) 
 			return;
