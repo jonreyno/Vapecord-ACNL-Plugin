@@ -339,11 +339,12 @@ namespace CTRPluginFramework {
     Item GameHelper::GetBellsByValue(u32 value)
     {
 		u16 bellId = 0x20ac;
+		value = std::clamp(value, (u32)0, (u32)99000);
 
 		if(value > 0 && value < 1000) {
 			bellId = 0x20ab + value/100;
 		}
-		else if(value >= 1000 && value <= 99000) {
+		else if(value >= 1000) {
 			bellId = 0x20b4 + value/1000;
 		}
 		else {
