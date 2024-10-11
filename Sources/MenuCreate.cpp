@@ -423,7 +423,16 @@ namespace CTRPluginFramework {
 		})),
 		MISC->Append(new MenuEntry("FAST_TEXT_SPEED", fasttalk, "FAST_TEXT_SPEED_NOTE")),
 		MISC->Append(new MenuEntry("FAST_GAME_SPEED", speedentry, "FAST_GAME_SPEED_NOTE")),
-		MISC->Append(new MenuEntry("Isabelle_Skip", IsabelleSkip, "Isabelle_Skip_NOTE")),
+		MISC->Append(new MenuEntry("Isabelle_Skip", IsabelleSkip, "Isabelle_Skip_NOTE"));
+	/////////////////////
+	/*Stereoscopic 3D Codes Folder*/
+	/////////////////////
+		MenuFolder *STRC = new MenuFolder("ADJUST3D_NAME");
+		STRC->Append(new MenuEntry(1, "ADJUST3D_OPTION1", Adjust3DEffect0, "ADJUST3D_OPTION1")),
+		STRC->Append(new MenuEntry(1, "ADJUST3D_OPTION2", Adjust3DEffect1, "ADJUST3D_OPTION2")),
+		STRC->Append(new MenuEntry(1, "ADJUST3D_OPTION3", Adjust3DEffect2, "ADJUST3D_OPTION3")),
+		STRC->Append(new MenuEntry(1, "ADJUST3D_OPTION4", Adjust3DEffect3, "ADJUST3D_OPTION4")),
+		MISC->Append(STRC);
 		menu->Append(MISC);
 
 	////////////////////
@@ -474,6 +483,7 @@ namespace CTRPluginFramework {
 		PluginMenuData::SetUp(FISC, true);
 		PluginMenuData::SetUp(CHAC, true);
 		PluginMenuData::SetUp(EXTC);
+		PluginMenuData::SetUp(STRC, true);
 		PluginMenuData::SetUp(MISC);
 	}
 }

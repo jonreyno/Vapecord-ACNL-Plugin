@@ -547,4 +547,24 @@ namespace CTRPluginFramework {
 		}
 		
 	}
+
+	//Adjust 3d strength
+	void Adjust3DEffect(float strength, MenuEntry *entry) {		
+
+		static Address stereoeffect(0xAC33C8);
+
+		const float basestr = 6.0;
+
+		if(entry->IsActivated() && GameHelper::RoomCheck() != 1) {
+			Process::WriteFloat(stereoeffect.addr, strength);
+		}
+		else if(!entry->IsActivated() || GameHelper::RoomCheck() == 1) {
+			Process::WriteFloat(stereoeffect.addr, basestr);
+		}
+	}
+
+	void Adjust3DEffect0(MenuEntry *entry) { Adjust3DEffect(6, entry); }
+	void Adjust3DEffect1(MenuEntry *entry) { Adjust3DEffect(18, entry); }
+	void Adjust3DEffect2(MenuEntry *entry) { Adjust3DEffect(30, entry); }
+	void Adjust3DEffect3(MenuEntry *entry) { Adjust3DEffect(32, entry); }
 }

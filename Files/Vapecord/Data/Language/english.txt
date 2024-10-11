@@ -1013,6 +1013,14 @@ ChatButton_NOTE :: The button appears when you open a chat.
 Isabelle_Skip :: Isabelle Skip
 Isabelle_Skip_NOTE :: You can skip the conversation with Isabelle at the beginning of the game. \n*If you do not skip it when the screen is brightened, the lower screen will go black.
 
+#Adjust 3D Effect
+ADJUST3D_NAME :: Adjust 3D Effect
+ADJUST3D_NOTE :: Increase the strength of the stereoscopic 3D effect
+ADJUST3D_OPTION1 :: Default
+ADJUST3D_OPTION2 :: Medium
+ADJUST3D_OPTION3 :: Strong
+ADJUST3D_OPTION4 :: Strongest
+
 #Other Stuff
 
 #Dumper & Restorer & Deleter

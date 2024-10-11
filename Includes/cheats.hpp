@@ -202,6 +202,10 @@ namespace CTRPluginFramework {
 	void fasttalk(MenuEntry *entry);
 	void speedentry(MenuEntry *entry);
 	void IsabelleSkip(MenuEntry *entry);
+	void Adjust3DEffect0(MenuEntry *entry);
+	void Adjust3DEffect1(MenuEntry *entry);
+	void Adjust3DEffect2(MenuEntry *entry);
+	void Adjust3DEffect3(MenuEntry *entry);
 
 //Dev Codes	
 	void customdump(MenuEntry *entry);
