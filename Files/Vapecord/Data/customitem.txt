@@ -1,0 +1,2496 @@
+Item,Part Changed,Options,Part1,Part2
+29df Bed,The Frame,Black and Red,4,0
+,The Bedding,Red,0,1
+,,Clothes,0,8
+29e0 Bureau,The Furniture Color,Black and red,4,0
+29e1 Wardrobe,The Furniture Color,Black and red,4,0
+29e2 Bench,The Furniture Color,Black and red,4,0
+29e3 Chair,The Frame,Black and red,4,0
+,The Fabric,Red,0,1
+,,Clothes,0,8
+29e4  Table,The Furniture Color,Black and red,4,0
+29e5 End Table,The Furniture Color,Black and red,4,0
+29e6 Lamp,The Furniture Color,Black and red,4,0
+29e7 Screen,The Furniture Color,Black and red,4,0
+29e8 Chest,The Furniture Color,Black and red,4,0
+29e9 Wall Shelf,The Furniture Color,Black and red,4,0
+29ea Bed,The Frame,Beige,4,0
+,,White,8,0
+,The Bedding,Red,0,1
+,,Green,0,2
+,,Black,0,3
+,,Clothes,0,8
+29eb  Dresser,The Wood Color,Beige,4,0
+,,White,8,0
+29ec Wardrobe,The Wood Color,Beige,4,0
+,,White,8,0
+29ed Couch,The Wood Color,Beige,4,0
+,,White,8,0
+29ee Armchair,The Wood Color,Beige,4,0
+,,White,8,0
+29ef Chair,The Wood Color,Beige,4,0
+,,White,8,0
+29f0 Table,The Wood Color,Beige,4,0
+,,White,8,0
+29f1 Tea Table,The Wood Color,Beige,4,0
+,,White,8,0
+,The Cloth,Red,0,1
+,,Green,0,2
+,,Black,0,3
+,,Clothes,0,8
+29f2 Bookcase,The Wood Color,Beige,4,0
+,,White,8,0
+29f3 Hutch,The Wood Color,Beige,4,0
+,,White,8,0
+29f4 Wall Rack,The Wood Color,Beige,4,0
+,,White,8,0
+29f5  Bed,The Frame,Violet brown,4,0
+,,Chocolate,8,0
+,The Bedding,Light Beige,0,1
+,,Dark beige,0,2
+,,Clothes,0,8
+29f6  Vanity,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29f7  Wardrobe,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29f8  Chair,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29f9  Sofa,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29fa  Table,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+,The Cloth,Violet,0,1
+,,Yellow,0,2
+,,Clothes,0,8
+29fb  Bookcase,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29fc  Buffet,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+,The Cloth,Violet,0,1
+,,Yellow,0,2
+,,Clothes,0,8
+29fd  Desk,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29fe  Clock,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+29ff  Wall Shelf,The Wood Color,Violet brown,4,0
+,,Chocolate,8,0
+2a00  Bed,The Frame,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a01  Dresser,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a02  Armoire,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a03  Chair,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a04  Sofa,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a05  Table,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+,The Tablecloth,Royal Blue,0,1
+,,Royal pink,0,2
+,,Royal red,0,3
+,,Royal green,0,4
+,,Royal purple,0,5
+,,Clothes,0,8
+2a06  Lamp,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+,The Lamp Shade,Royal Blue,0,1
+,,Royal pink,0,2
+,,Royal red,0,3
+,,Royal green,0,4
+,,Royal purple,0,5
+,,Clothes,0,8
+2a07  Clock,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a08  Bookcase,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a09  Vanity,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a0a  Wall Lamp,The Body Color,Royal Blue,4,0
+,,Royal pink,8,0
+,,Royal red,0c,0
+,,Royal green,10,0
+,,Royal purple,14,0
+2a0b  Bed,The Frame,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+,The Bedding,Pink,0,1
+,,Clothes,0,8
+2a0c  Bureau,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a0d  Wardrobe,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a0e  Chair,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a0f  Bench,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a10  Table,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+,The Tablecloth,Pink,0,1
+,,Clothes,0,8
+2a11  Bookcase,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a12  Cabinet,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a13  Clock,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a14  Dresser,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a15  Wall Shelf,The Wood Color,Sapphire,2c,0
+,,Light blue,4,0
+,,Dark blue,8,0
+2a16  Bed,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+,The Bedding,Yellow,0,1
+,,Clothes,0,8
+2a17  Dresser,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a18  Wardrobe,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a19  Chair,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a1a  Armchair,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+,The Seat,Yellow,0,1
+,,Clothes,0,8
+2a1b  Table,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a1c  Lamp,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a1d  Bookcase,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a1e  Vanity,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a1f  Screen,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a20  Wall Radio,The Wicker Color,Gold Nugget,20,0
+,,Colorful,4,0
+2a21 Green Bed,The Frame,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Bedding,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a22 Green Dresser,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Cloth,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a23 Green Wardrobe,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+2a24 Green Chair,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Cushion,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a25 Green Bench,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+2a26 Green Table,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Tablecloth,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a27 Green Desk,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+2a28 Green Lamp,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Lamp Shade,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a29 Green Counter,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+2a2a Green Pantry,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+2a2b Green Wall Clock,The Wood Color,Emerald Ore,30,0
+,,Light green,4,0
+,,Deep green,8,0
+,,Grass green,0c,0
+,The Clock Face,Green,0,1
+,,Purple,0,2
+,,Clothes,0,8
+2a2c  Bed,The Frame,Patchy tree,4,0
+,,Birch tree,8,0
+,The Bedding,Green,0,1
+,,Yellow,0,2
+,,Clothes,0,8
+2a2d  Dresser,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The Cloth,Green,0,1
+,,Yellow,0,2
+,,Clothes,0,8
+2a2e  Wardrobe,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+2a2f  Chair,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+2a30  Armchair,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The Cushion,Green,0,2
+,,Red,0,3
+,,Clothes,0,8
+,,Remove Fabric,0,1
+2a31  Couch,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The set of cushions,Green,0,2
+,,Red,0,3
+,,Clothes,0,8
+,,Remove Fabric,0,1
+2a32  Table,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The Tablecloth,Green,0,1
+,,Red,0,2
+,,Clothes,0,8
+2a33  Low Table,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The Tablecloth,Green,0,1
+,,Red,0,2
+,,Clothes,0,8
+2a34  Bookcase,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+,The Cloth,Green,0,1
+,,Pink,0,2
+,,Clothes,0,8
+2a35  Clock,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+2a36  Wall Clock,The Wood Material,Patchy tree,4,0
+,,Birch tree,8,0
+2a37  Bed,The Frame,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+,The Bedding,Red plaid,0,1
+,,Blue plaid,0,2
+,,Green plaid,0,3
+,,Yellow plaid,0,4
+,,Gray plaid,0,5
+,,Clothes,0,8
+2a38  Dresser,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a39  Wardrobe,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a3a  Chair,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a3b  Sofa,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a3c  End Table,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a3d  Desk,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+2a3e  Table,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a3f  Cabinet,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a40  Lamp,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+,The Lamp Shade,Red plaid,0,1
+,,Blue plaid,0,2
+,,Green plaid,0,3
+,,Yellow plaid,0,4
+,,Gray plaid,0,5
+,,Clothes,0,8
+2a41  Wall Clock,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Red tone,4,0
+,,Blue tone,8,0
+,,Green tone,0c,0
+,,Yellow tone,10,0
+,,Gray tone,14,0
+2a42  Bed,The Frame,Fruit colored,4,0
+,,Pastel colored,8,0
+,The Bedding,Fruit colored,0,1
+,,Pastel colored,0,2
+,,Clothes,0,8
+2a43  Dresser,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a44  Wardrobe,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a45  Couch,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a46  Chair,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+,The Cushion,Colorful,0,1
+,,Fruit colored,0,2
+,,Pastel colored,0,3
+,,Clothes,0,8
+2a47  Table,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+,The Tablecloth,Fruit colored,0,1
+,,Pastel colored,0,2
+,,Clothes,0,8
+2a48  Bureau,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a49  Bookcase,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a4a  Clock,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a4b  Stereo,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a4c  Wall Clock,The Body Color,Fruit colored,4,0
+,,Pastel colored,8,0
+2a4d  Bed,The Frame,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+,The Bedding,Pink and black,0,1
+,,Pink and white,0,2
+,,Clothes,0,8
+2a4e  Dresser,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a4f  Armoire,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a50  Chair,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a51  Love Seat,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+,The Set of Cushions,Pink and black,0,1
+,,Pink and white,0,2
+,,Clothes,0,8
+2a52  End Table,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+,The Tablecloth,Pink and black,0,1
+,,Pink and white,0,2
+,,Clothes,0,8
+2a53  Table,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+,The Tablecloth,Pink and black,0,1
+,,Pink and white,0,2
+,,Clothes,0,8
+2a54  Vanity,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a55  Kitchen,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a56  Lamp,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+,The Lamp Shade,Pink and black,0,1
+,,Pink and white,0,2
+,,Clothes,0,8
+2a57  Wall Clock,The Body Color,Ruby Ore,28,0
+,,Pink and black,4,0
+,,Pink and white,8,0
+2a58  Bed,The Frame,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a59  Dresser,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5a  Closet,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5b  Sofa,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5c  Chair,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5d  Table,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5e  Stereo,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a5f  TV,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a60  Clock,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a61  Lamp,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a62  Wall Clock,The Body Color,Red robot,4,0
+,,Green robot,8,0
+,,Black robot,0c,0
+,,Blue robot,10,0
+2a63  Bed,The Frame,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Bedding,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a64  Dresser,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Cloth and drawer,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a65  Closet,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Door,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a66  Chair,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Cushion,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a67  Sofa,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Set Of Cushions,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a68  Table,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Interior Cloth,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a69  Lamp,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Lamp Shade,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a6a  Stool,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Cushion,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a6b  Low Table,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Tablecloth,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2a6c  TV,The Body Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+2a6d  Clock,The Frame,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Soda blue,4,0
+,,Cola brown,8,0
+,,Melon float,0c,0
+,,Caramel beige,10,0
+,,Grape violet,14,0
+,,Peach pink,18,0
+,,Pop black,1c,0
+,The Clock Face,Soda blue,0,1
+,,Cola brown,0,2
+,,Melon float,0,3
+,,Caramel beige,0,4
+,,Grape violet,0,5
+,,Peach pink,0,6
+,,Pop black,0,7
+,,Clothes,0,8
+2ae7  Bed,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2ae8  Sofa,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2ae9  Chair,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aea  Dresser,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aeb  Wardrobe,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aec  Clock,The Clock Face Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aed  Lamp,The Lamp Shade,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aee  Ottoman,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2aef  Table,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2af0  Minitable,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2af1  Vanity,The Body Color,Moss green,4,0
+,,Gray,8,0
+,,Ash brown,0c,0
+2dad  Sideboard,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2dae  Stereo,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2daf  Bed,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db0  Sofa,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db1  Chair,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db2  Dresser,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db3  Closet,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db4  Clock,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db5  Lamp,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db6  Table,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db7  Side Table,The Leather Color,Red,4,0
+,,Purple,8,0
+,,Holstein,0c,0
+2db8   Bed,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+,The Futon Cover,Argyle,0,1
+,,Square plaid,0,2
+,,Clothes,0,8
+2db9   Sofa,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dba   Chair,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dbb   Chest,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dbc   Closet,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dbd   Clock,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dbe   Lamp,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dbf   Stool,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dc0   Table,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dc1   Shelf,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dc2   TV,The Wood Pattern,Simple,4,0
+,,Diamond,8,0
+2dd9  Candlestick,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2dda  Bed,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2ddb  Shelf,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2ddc  Sofa,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2ddd  Chair,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2dde  Dresser,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2ddf  Wardrobe,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2de0  Clock,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2de1  Vanity,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2de2  Lamp,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2de3  Table,The Body Color,Gothic yellow,4,0
+,,Gothic black,8,0
+,,Gothic white,0c,0
+2de4  Bed,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2de5  Sofa,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2de6  Chair,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2de7  Dresser,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2de8  Closet,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2de9  Lamp,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2dea  Panel,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2deb  Shelf,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2dec Large Table,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2ded  Low Table,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2dee  Kitchen Cart,The Wood Grain Color,Beige,4,0
+,,Dark brown,8,0
+,The Fabric,Square,0,1
+,,Rain,0,2
+,,Wave,0,3
+,,Leaf,0,4
+,,Mechanical,0,5
+,,Modern,0,6
+,,Tree,0,7
+,,Clothes,0,8
+2def  CD Player,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df0  Bed,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df1  Sofa,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df2  Chair,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df3  Dresser,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df4  Closet,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df5  Clock,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df6  Table,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df7  TV,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df8  Shelf,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2df9  Lamp,The Body Color,Blue and black,4,0
+,,Black and red,8,0
+2dfa  Tower,The Card Back Color,Black,4,0
+2dfb  Bed,The Card Back Color,Black,4,0
+2dfc  Sofa,The Card Back Color,Black,4,0
+2dfd  Chair,The Card Back Color,Black,4,0
+2dfe  Dresser,The Card Back Color,Black,4,0
+2dff  Closet,The Card Back Color,Black,4,0
+2e00  Wall Clock,The Card Back Color,Black,4,0
+2e01  Lamp,The Card Back Color,Black,4,0
+2e02  Screen,The Card Back Color,Black,4,0
+2e03  Shelf,The Card Back Color,Black,4,0
+2e04  Table,The Card Back Color,Black,4,0
+2e05  Dresser,The Stripes Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e06  Lamp,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+,The Lamp Shade,Orange Stripe,0,1
+,,Green Stripe,0,2
+,,Pink Stripe,0,3
+,,Yellow Stripe,0,4
+,,Gray Stripe,0,5
+,,Clothes,0,8
+2e07  Closet,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e08  TV,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e09  Table,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e0a  Sofa,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e0b  Shelf,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e0c  Clock,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e0d  Bed,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+,The Comfortor,Orange Stripe,0,1
+,,Green Stripe,0,2
+,,Pink Stripe,0,3
+,,Yellow Stripe,0,4
+,,Gray Stripe,0,5
+,,Clothes,0,8
+2e0e  Bathroom Sink,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e0f  Chair,The Body Color,Orange Stripe,4,0
+,,Green Stripe,8,0
+,,Pink Stripe,0c,0
+,,Yellow Stripe,10,0
+,,Gray Stripe,14,0
+2e10  Bed,Pink Comforter,,0,1
+2e11  Sofa,Pink T Shirt,,0,1
+2e13  Chair,Pink Scarf,,0,1
+2e14  Table,Pink Tablecloth,,0,1
+2e15  Closet,Pink Scarf,,0,1
+2e17  Lamp,Pink Shade,,0,1
+2e1a  Dresser,Pink T Shirt,,0,1
+2e81  Chair,The Cloth,Green,4,0
+,,Beige,8,0
+,,Red,0c,0
+,,Warm color,10,0
+,,British,14,0
+2e82  Dresser,The Cloth,Green,4,0
+,,Beige,8,0
+,,Red,0c,0
+,,Warm color,10,0
+,,British,14,0
+2e83  Lamp,The Cloth,Green,4,0
+,,Beige,8,0
+,,Red,0c,0
+,,Warm color,10,0
+,,British,14,0
+2e84  Table,The Cloth,Green,4,0
+,,Beige,8,0
+,,Red,0c,0
+,,Warm color,10,0
+,,British,14,0
+2e85  Sofa,The Cloth,Green,4,0
+,,Beige,8,0
+,,Red,0c,0
+,,Warm color,10,0
+,,British,14,0
+2e91  Dog Lamp,The Balloon Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Pink,10,0
+,,Gray,14,0
+2b18 Wet Road Sign,The Sign Type,Road narrows,4,0
+,,Construction site,8,0
+,,Deer crossing,0c,0
+,,Kangaroo crossing,10,0
+,,Squirrel crossing,14,0
+,,Beware of bear,18,0
+,,Beware of boar,1c,0
+2b1d Oil Barrel,The Oil Barrel color,Red,4,0
+,,Danger,8,0
+,,Brown,0c,0
+,,Yellow,10,0
+,,Blue,14,0
+2b23 Boxing Mat,The Color,White,4,0
+,,Green,8,0
+2b24 Ringside Table,The Table Color,Dark brown,4,0
+2b2b Garden Gnome,The Gnome Color,Purple Hat,4,0
+,,Yellow hat,8,0
+,,Blue hat,0c,0
+,,Orange hat,10,0
+,,Dark Red hat,14,0
+,,Green hat,18,0
+2b2d Hammock,The Cloth,Aqua,4,0
+,,Pink,8,0
+,,Yellow,0c,0
+,The Pillow,Aqua,0,1
+,,Pink,0,2
+,,Yellow,0,3
+,,Clothes,0,8
+2b2f Picnic Table,The Napkin,Blue gingham,4,0
+,,Green gingham,8,0
+,,Bown gingham,0c,0
+,,Clothes,0,8
+2b31 Lawn Chair,The Vinyl Color,Pink,0,4
+,,Orange,0,8
+2b38 Stroller,The Stroller Color,Pink,4,0
+2b39 Cradle,The Cradle Color,Blue,4,0
+2b3f Wobbelina,The Body Color,Blue,4,0
+2b40 Dolly,The Clothes Color,Blue,4,0
+,,Green,8,0
+,,Purple,0c,0
+,,Black,10,0
+,,Yellow,14,0
+2b56 Pawn,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b57 Bishop,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b58 King,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b59 Knight,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b5a Queen,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b5b Rook,The Piece Color,Gold Nugget,20,0
+,,White,4,0
+,,Black,8,0
+2b64 Chalkboard,The Chalk Writing,Math,4,0
+,,Tic Tac Toe,8,0
+,,Music,0c,0
+2b6c Ball Catcher,The Ball,Lined tricolor ball,4,0
+,,Colorful tricolor ball,8,0
+,,Colorful bicolor ball,0c,0
+2b70 Folding Chair,The Chair Color,Green,4,0
+,,Brown,8,0
+,,Gray,0c,0
+2b7a Writing Chair,The Seat Material,Pink plaid,0,1
+,,Blue Plaid,0,2
+,,Strawberry,0,3
+,,Rocket,0,4
+,,Clothes,0,8
+2b84 Giant Dharma,The Body Color,Gold Nugget,20,0
+,,White,4,0
+,,Blue,8,0
+2b85 Dharma,The Body Color,Gold Nugget,20,0
+,,White,4,0
+,,Blue,8,0
+2b86 Mini Dharma,The Body Color,Gold Nugget,20,0
+,,White,4,0
+,,Blue,8,0
+2b87 Papa Bear,The Cloth,Pink Marble,4,0
+,,Red Tartan,8,0
+,,Blue Stripe,0c,0
+,,Flower Print,10,0
+,,Leopard,14,0
+2b88 Mama Bear,The Cloth,Blue Marble,4,0
+,,Blue Tartan,8,0
+,,Purple Stripe,0c,0
+,,Flower Print,10,0
+,,Silver Leopard,14,0
+2b89 Baby Bear,The Cloth,Violet Marble,4,0
+,,Yellow Tartan,8,0
+,,Stripe,0c,0
+,,Flower Print,10,0
+,,Pink Leopard,14,0
+2b8a Mama Polar Bear,The Shirt,Pink Striped,0,1
+,,Collared Shirt,0,2
+,,Fluffy Jacket,0,3
+,,Blue Gingham Plaid,0,4
+,,Clothes,0,8
+2b91 Golf Bag,The Bag Color,Green,4,0
+,,Red,8,0
+,,Black,0c,0
+2b92 Simple Armchair,The Sofa Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Orange,14,0
+2b93 Simple Love Seat,The Sofa Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Orange,14,0
+2b98 Lava Lamp,The Light Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Orange,14,0
+2b9f Paper Wall Lamp,The Design,Full Moon,0,1
+,,Bamboo,0,2
+,,Cherry Tree,0,3
+,,Clothes,0,8
+2bae Bath Mat,The Style,Green,4,0
+,,Blue,8,0
+2bb0 Bathtub,The Material,Cedar,4,0
+,,Marble,8,0
+2bbd Tangerine Chair,The Type of Fruit,Lime,4,0
+,,Lemon,8,0
+,,Blood Orange,0c,0
+,,Citrus,10,0
+,,Pink Grapefruit,14,0
+2bbe Kiwi Stool,The Kiwi Color,Gold,4,0
+2bc1 Watermelon Chair,The Melon Color,Yellow Watermelon,4,0
+,,Seedless Watermelon,8,0
+2bc2 Watermelon Table,The Melon Color,Yellow Watermelon,4,0
+,,Seedless Watermelon,8,0
+2bc3 Juicy Apple TV,The Apple Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby,28,0
+,,Emerald,30,0
+,,Green Apple,4,0
+2bc4 Juicy Apple Clock,The Apple Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby,28,0
+,,Emerald,30,0
+,,Green Apple,4,0
+2bc6 Froggy Chair,The Frog color,Purple Frog,4,0
+,,Yellow Frog,8,0
+,,Red Frog,0c,0
+2bc9 Flower Chair,The Frog color,Purple Frog,4,0
+,,Yellow Frog,8,0
+,,Red Frog,0c,0
+2bca Flower Table,The Flower Color,White,4,0
+,,Yellow,8,0
+,,Orange,0c,0
+,,Violet,10,0
+2beb Rock Guitar,The Body Color,Fire red,0,1
+,,Sky Blue,0,2
+,,Lemon Yellow,0,3
+,,Tangerine Orange,0,4
+,,Coral Pink,0,5
+,,Pure White,0,6
+,,Cosmo Black,0,7
+,,Clothes,0,8
+2bec Electric Guitar,The Body Color,Sky blue,0,1
+,,Lemon Yellow,0,2
+,,Citrus Orange,0,3
+,,Coral Pink,0,4
+,,Pure White,0,5
+,,Cosmo Black,0,6
+,,Natural Beige,0,7
+,,Clothes,0,8
+2bee Ebony Piano,The Body Color,White,4,0
+2c0f Plate Armor,The Armor Color,Gold Nugget,20,0
+,,Black,4,0
+2c14 Mountain Bike,The Frame,Blue and orange,4,0
+,,Purple and yellow,8,0
+,,Black and red,0c,0
+,,Orange and yellow,10,0
+,,Red and white,14,0
+,,Yellow and black,18,0
+,,Blue and white,1c,0
+2c29 Toaster,The Toast Design,Heart,4,0
+,,Star,8,0
+,,Burned,0c,0
+2c2b Clothesline Pole,The Drying Shirt,Worn Out Shirt,0,1
+,,Dirty shirt,0,2
+,,Tea Stained shirt,0,3
+,,Clothes,0,8
+2c2c Doghouse,The Roof,Blue roof,4,0
+2c2f Surfboard,The Body Design,Futuristic,4,0
+,,Wave,8,0
+,,Sharp,0c,0
+,,Ocean,10,0
+2c31 Beach Table,The Parasol,Red and white,0,1
+,,Green and yellow,0,2
+,,Clothes,0,8
+2c33 Life Ring,The Life Ring Design,Blue,4,0
+,,Green,8,0
+,,Life Preserver 1,0c,0
+,,Life Preserver 2,10,0
+2c34 Snowboard,The Body Color,Blue,4,0
+,,Green,8,0
+,,Yellow,0c,0
+,,Black,10,0
+,,Orange,14,0
+,,Pink,18,0
+2c3a Toilet,The Coloring,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Black,4,0
+2c3b Super Toilet,The Coloring,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Blue,4,0
+2c3d Game Shelf,The Body Color,Blue,4,0
+,,Beige,8,0
+,,Black,0c,0
+2c50 Cassette Player,The Tape Deck Color,White,4,0
+,,Blue,8,0
+2c51 Round Clock,The Body Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Black,14,0
+2c56 Oval Clock,The Coloring,Red,4,0
+,,Yellow,8,0
+,,Blue,0c,0
+2c58 Alarm Clock,The Coloring,Red,4,0
+,,Yellow,8,0
+,,Blue,0c,0
+2c59 Common Chair,The Chair Color,Yellow,4,0
+,,White,8,0
+,,Red,0c,0
+,,Blue,10,0
+,,Purple,14,0
+,,Black,18,0
+2c5b Lefty Desk,The Chair Color,Red,4,0
+,,Yellow,8,0
+,,Green,0c,0
+2c5c Righty Desk,The Chair Color,Red,4,0
+,,Yellow,8,0
+,,Green,0c,0
+2c60 Raccoon Figurine,The Raccoon Color,Gold Nugget,20,0
+,,Blue,4,0
+,,Green,8,0
+,,Gray,0c,0
+2c6b Kotatsu,The Blanket,Pink blanket,4,0
+,,Red blanket,8,0
+,,Brown blanket,0c,0
+,,Blue Striped blanket,10,0
+,,Plaid blanket,14,0
+,,Layered blanket,18,0
+2c6f Claw Foot Tub,The Bathtub Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Pink,4,0
+,,Blue,8,0
+,,Beige,0c,0
+,,Marble,10,0
+2c75 Executive Toy,The Color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Blue,4,0
+2c79 Cardboard Box,The Print,Orange Print,4,0
+,,Apple Print,8,0
+2c80 Throne,The Seat Color,Blue,4,0
+,,Purple,8,0
+,,Black,0c,0
+2c81 Common Bed,The Bedding Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Orange,14,0
+2ca3 Piggy Bank,The Pig Type,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Ruby Ore,28,0
+,,Sapphire Ore,2c,0
+,,Emerald Ore,30,0
+,,Amethyst Ore,34,0
+,,Black pig,4,0
+2cb6 Brown Pot,The Design,Cracked,4,0
+,,Marbled,8,0
+,,Mesh,0c,0
+2cb7 White Pot,The Design,Rough,4,0
+,,Marbled,8,0
+,,Flower Pattern,0c,0
+2cbd Morning Glory,The Flower Color,Red Flower,4,0
+,,Purple Flower,8,0
+2cca Display Stand,The Pedestal,Black pedestal,4,0
+2ccb Glass Display Case,The Pedestal,Black pedestal,4,0
+2ccc Flat Display Case,The Pedestal,Black Pedestal,4,0
+,The Display Item,Insect,0,1
+,,Constellation,0,2
+,,Graph,0,3
+,,Clothes,0,8
+2ccd Tall Display Case,The Pedestal,Black pedestal,4,0
+,The Painting,Sunset,0,1
+,,Night view,0,2
+,,Still Life painting,0,3
+,,Prairie,0,4
+,,Clothes,0,8
+2cce Museum Chair,The Cushion Color,Black,4,0
+2ccf Arrow Sign,The Arrow Direction,Left,4,0
+2cd0 Fancy Frame,The Painting,Landscape painting,0,1
+,,Clothes,0,8
+2cd3 Poster Stand,The Poster,Ceramic,0,1
+,,Orchestra,0,2
+,,Landscape,0,3
+,,Ocean,0,4
+,,Clothes,0,8
+2cd4 Exhibit Partition,The Partition Color,Black Partition,4,0
+,The Painting,Sunset,0,1
+,,Night View,0,2
+,,Still Life Painting,0,3
+,,Prairie,0,4
+,,Clothes,0,8
+2cd8 LED Display,The Screen,Heart,0,1
+,,Leaf,0,2
+,,Clothes,0,8
+2ce3 Pipe Stool,The Pipe,Black,4,0
+,The Seat,Red,0,1
+,,Green,0,2
+,,Orange,0,3
+,,Lemon,0,4
+,,Lime green,0,5
+,,Black,0,6
+,,White,0,7
+,,Clothes,0,8
+2cf1 Director's Chair,The Fabric,Black,0,1
+,,Blue,0,2
+,,Green,0,3
+,,Dark red,0,4
+,,Pink,0,5
+,,Beige,0,6
+,,Orange,0,7
+,,Clothes,0,8
+2cfb Hot Plate,The Food on the Grill,Pancake,4,0
+,,Omelet,8,0
+,,Pizza,0c,0
+2d0a Small Spotlight,The Light Color,Red,4,0
+,,Orange,8,0
+,,Green,0c,0
+,,Blue,10,0
+,,Purple,14,0
+2d0b Stained Glass Lamp,The Lamp Shade,Red,4,0
+,,Purple,8,0
+,,Blue,0c,0
+2d10 Small LED Display,The Screen,Heart,0,1
+,,Leaf,0,2
+,,Clothes,0,8
+2d19 Wooden Stool,The Seat,Pink,0,1
+,,Blue,0,2
+,,Clothes,0,8
+2d1b Metal Guitar,The Body Color,Fire red,0,1
+,,Sky blue,0,2
+,,Lemon yellow,0,3
+,,Citrus orange,0,4
+,,Coral pink,0,5
+,,Pure white,0,6
+,,Creamy beige,0,7
+,,Clothes,0,8
+2d1d Trunk,The Trunk Color,Orange,0,1
+,,Deep brown,0,2
+,,Clothes,0,8
+2d20 Lotus Lamp,The Flower Color,Blue,4,0
+,,Green,8,0
+,,Yellow,0c,0
+2d25 Potty,The Body Color,Pink,4,0
+,,Blue,8,0
+,,Green,0c,0
+,,Orange,10,0
+2d2b Aroma Pot,The Pot Color,Green,4,0
+,,Pink,8,0
+,,Blue,0c,0
+2d2c Game Show Stand,The Stand Color,Green,4,0
+,,Purple,8,0
+,,Blue,0c,0
+2d2e Donut Stool,The Pipe,Black,4,0
+,The Seat,Dark red,0,1
+,,Blue green,0,2
+,,Strawberry donut,0,3
+,,Lemon,0,4
+,,Red And White striped,0,5
+,,Chocolate donut,0,6
+,,Blue And White striped,0,7
+,,Clothes,0,8
+2d3a Rice Cooker,The Menu,Red Rice,4,0
+,,Pilaf,8,0
+,,Paella,0c,0
+,,Chicken rice,10,0
+,,Eel rice,14,0
+,,Chestnut rice,18,0
+,,Pea rice,1c,0
+2d3c Conveyor Belt Sushi,The Sushi,Blue plate,4,0
+,,Yellow plate,8,0
+,,Red plate,0c,0
+2d3e Whiteboard,The Marker Writing,Soccer tactics,4,0
+,,Schedule,8,0
+,,Performance Analysis,0c,0
+2d40 Whirlpool Bath,The Water,With Flowers,4,0
+2d42 Cushion,The Fabric,Apple,0,1
+,,Orange,0,2
+,,Pear,0,3
+,,Peach,0,4
+,,Cherry,0,5
+,,Clothes,0,8
+2d45 Humidifier,The Body Color,Pink,4,0
+,,Green,8,0
+2d49 Ironing Set,The Blanket,Orange,0,1
+,,Black,0,2
+,,Red,0,3
+,,Chocolate,0,4
+,,White,0,5
+,,Clothes,0,8
+2d4a Rolling Suitcase,The Body Color,Blue,4,0
+,,Green,8,0
+,,Yellow,0c,0
+,,Pink,10,0
+2d4e Loom,The Textile Fabric,Blue plaid,0,1
+,,Yellow plaid,0,2
+,,Clothes,0,8
+2d50 Pickle Jar,The Stuff Inside,Pepper,4,0
+,,Zucchini,8,0
+,,Carrot,0c,0
+,,Asparagus,10,0
+2d54 Ceramic Hot Pot,The Menu,Sukiyaki,4,0
+,,Oden,8,0
+,,Hot pot,0c,0
+,,Tofu hot pot,10,0
+2d55 Stewpot,The Menu,Curry,4,0
+,,Consomme,8,0
+,,Borscht,0c,0
+2d56 Laptop,The Laptop Color,Black,4,0
+2d58 Copy Machine,The Printed Material,Material,0,1
+,,Clothes,0,8
+2d59 Drum Set,The Shell Color,Black,4,0
+,,Deep red,8,0
+,,White,0c,0
+,The Bass Drum Head,Star,0,1
+,,White with logo,0,2
+,,Black with logo,0,3
+,,Clothes,0,8
+2d5e Double Neck Guitar,The Body Color,Fire red,0,1
+,,Sky blue,0,2
+,,Citrus orange,0,3
+,,Coral pink,0,4
+,,Pure white,0,5
+,,Cosmos black,0,6
+,,Natural beige,0,7
+,,Clothes,0,8
+2d63 Soft Serve Lamp,The Ice Cream Color,Chocolate,4,0
+,,Chocolate Swirl,8,0
+,,Green Tea,0c,0
+,,Green Tea swirl,10,0
+,,Strawberry,14,0
+,,Strawberry Swirl,18,0
+2d67 Simple Kettle,The Kettle Color,White,4,0
+,,Black,8,0
+,,Blue,0c,0
+,,Orange,10,0
+,,Pink,14,0
+2d6c Stained Glass,The Exterior Pattern,Flower,4,0
+,,Sharp,8,0
+,,Simple,0c,0
+,,Nature,10,0
+,,Magical,14,0
+,,Winter,18,0
+,The Interior Pattern,Flower,0,1
+,,Nautical,0,2
+,,Round,0,3
+,,Nature,0,4
+,,Bird,0,5
+,,Winter,0,6
+,,Clothes,0,8
+2d72 Mobile,The Hanging Object,Fish,4,0
+,,Butterfly,8,0
+2d76 Life preserver,The Life Ring Design,Red,4,0
+,,Green,8,0
+,,Life Preserver 1,0c,0
+,,Life Preserver 2,10,0
+2d77 Festival Lantern,The Lantern,Red With White Kanji,0,1
+,,Red And White Striped,0,2
+,,Clothes,0,8
+2d9c Bread Box,The Bread,Raisin bread,4,0
+,,Cheese bread,8,0
+,,Cocoa marble bread,0c,0
+2d9d Chaise Lounge,The Leather Color,Green,4,0
+,,Brown,8,0
+,,Blue,0c,0
+,,Yellow,10,0
+,,Pink,14,0
+2d9e Chocolate Fountain,The Chocolate,White chocolate,4,0
+2d9f Box Sofa,The Leather Color,Beige,4,0
+,,Red,8,0
+,,Navy,0c,0
+,,Black,10,0
+,,Pink,14,0
+,,Blue,18,0
+,,White,1c,0
+2da0 Box Corner Sofa,The Leather Color,Beige,4,0
+,,Red,8,0
+,,Navy,0c,0
+,,Black,10,0
+,,Pink,14,0
+,,Blue,18,0
+,,White,1c,0
+2da1 Lunch Tray,The Menu,B Lunch,4,0
+,,C Lunch,8,0
+,,D Lunch,0c,0
+2da2 Hourglass,The Sand Color,Pink,4,0
+,,White,8,0
+,,Yellow,0c,0
+2da3 Boxed Figurine,The Figure,Robot,4,0
+2da6 Capsule Toy Machine,The Body Color,Green,4,0
+,,Orange,8,0
+,,Pink,0c,0
+,,Blue,10,0
+,,Purple,14,0
+2da7 Bilboquet,The Ball color,Gold Nugget,20,0
+,,Silver Nugget,24,0
+,,Blue,4,0
+2da9 Slide Puzzle,The Puzzle Picture,Star,0,1
+,,Clothes,0,8
+2e1c Circle Banner,The Flag Design,Square,0,1
+,,Stripe,0,2
+,,Zigzag,0,3
+,,Clothes,0,8
+2e37 Matryoshka,The Style,Gentlemen,4,0
+2e3d Marshmallow Chair,The Cushion,Pastel Pink,4,0
+,,Pastel blue,8,0
+,,Cream yellow,0c,0
+,,Burnt brown,10,0
+2e50 Hologram Machine,The Com Partner,Male,4,0
+,,Alien,8,0
+2e65 Curling Stone,The Handle,Red,4,0
+,,Blue,8,0
+2e68 Toy Camera,The Camera Color,Black,4,0
+,,Blue,8,0
+,,Beige,0c,0
+,,Red,10,0
+,,Green,14,0
+,,Purple,18,0
+,,Orange,1c,0
+2e6b World Map,The Map Type,Sepia,4,0
+2e6d Slalom Gate,The Flag Color,Blue,4,0
+2e7c Holiday Stocking,The Sock Color,Aqua,4,0
+2e87 Shogi Piece,The Piece Type,Gold Nugget,20,0
+,,Gold General,4,0
+,,Silver General,8,0
+,,Knight,0c,0
+,,Spear,10,0
+,,Bishop,14,0
+,,Rook,18,0
+,,Pawn,1c,0
+2e94 Lily Record Player,The Flower Color,Yellow,4,0
+,,Red,8,0
+2e95 Rose Sofa,The Flower Color,White,4,0
+,,Yellow,8,0
+2e97 Tulip Dresser,The Flower Color,Red,4,0
+,,White,8,0
+2e98 Violet Screen,The Flower Color,Blue,4,0
+,,White,8,0
+2e99 Hydrangea Bed,The Flower Color,Pink,4,0
+2e9a Azalea Stool,The Flower Color,Red,4,0
+2e9b Pansy Table,The Flower Color,White,4,0
+,,Red,8,0
+2e9c Cosmos Fan,The Flower Color,Red,4,0
+,,Yellow,8,0
+2e9d Hibiscus Clock,The Flower Color,Yellow,4,0
+2ea3 Zero Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea4 One Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea5 Two Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea6 Three Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea7 Four Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea8 Five Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ea9 Six Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2eaa Seven Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2eab Eight Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2eac Nine Lamp,The Number Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2ec5 Corkboard,The Leaflet,Postcard,0,1
+,,Kids' artwork,0,2
+,,Clothes,0,8
+2ec8 Kokeshi Doll,The Kokeshi Doll Face,Bald Wood Doll,4,0
+,,Bob Cut Wood Doll,8,0
+,,Comb Over Wood Doll,0c,0
+,,Laid Back Wood Doll,10,0
+,,Eyeglass Wood Doll,14,0
+,,Wide Eyed Wood Doll,18,0
+,,Distracted Wood Doll,1c,0
+2ed0 Notebook Wardrobe,The Cover Color,Blue,4,0
+,,Green,8,0
+,,Violet,0c,0
+,,Yellow,10,0
+2ed1 Eraser Sofa,The Eraser Color,Pink,4,0
+,,Blue,8,0
+2ed2 Notebook Bed,The Cover Color,Blue,4,0
+,,Green,8,0
+,,Violet,0c,0
+,,Yellow,10,0
+2ed4 Sticker Tape Liner,The Body Color,Pink,4,0
+,,Yellow,8,0
+2ee2 Ring,The Box Color,Red,4,0
+,,Sky Blue,8,0
+,,White,0c,0
+,,Black,10,0
+2ee7 Toolbox,The Body Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+2eec Train Seat,The Seat Color,Green,4,0
+,,Blue,8,0
+,,Purple,0c,0
+,,Gray,10,0
+,,Brown,14,0
+2eed Whole Pizza,The Style,Margherita,4,0
+,,Seafood,8,0
+,,Olive,0c,0
+,,Mixed,10,0
+2eee Plant Partition,The Body Color,Black,4,0
+,,Brick,8,0
+,,Wood grain,0c,0
+2eef Ramen,The Menu,Tonkotsu,4,0
+,,Tantan men,8,0
+2ef0 Tart,The Flavor,Apple,4,0
+,,Choco,8,0
+,,Lemon,0c,0
+,,Berry,10,0
+,,Matcha,14,0
+2ef1 Fancy Tea Set,The Body Color,Pink,4,0
+,,Green,8,0
+,,Blue,0c,0
+2ef6 Tractor,The Body Color,Blue,4,0
+,,Green,8,0
+,,Black,0c,0
+2eff Stack Of Books,The Collection,Eastern Script,4,0
+,,Manga,8,0
+2f0e Futon Mattress,The Pattern,Flowers,4,0
+,,Green Striped,8,0
+,,Chrysanthemums,0c,0
+,,Checkered,10,0
+,,Clothes,0,8
+2f0f Zen Tea Set,The Tea Snack,Strawberry rice cake,4,0
+,,Steamed Bun,8,0
+,,Cherry Blossom mochi,0c,0
+,,Mugwort mochi,10,0
+2f10 Trellis,The Flower Color,Pink,4,0
+,,Purple,8,0
+2f11 Boston Bag,The Body Color,Black,4,0
+,,Red,8,0
+,,Green,0c,0
+,,Camel Colored,10,0
+2f12 Kick Scooter,The Body Color,Yellow,4,0
+,,Red,8,0
+,,Green,0c,0
+,,Black,10,0
+2f13 Lunch Box,The Menu,Zen,4,0
+,,Heart,8,0
+,,Sunburst,0c,0
+2f14 Milk Carton,The Drink,Coffee Milk,4,0
+,,Orange Juice,8,0
+,,Vegetable Juice,0c,0
+,,Tomato Juice,10,0
+2f15 Bistro Table,The Parasol Color,Green,0,1
+,,Red,0,2
+,,Blue,0,3
+,,Black,0,4
+,,Clothes,0,8
+2f16 Plastic Canister,The Body Color,Blue,4,0
+,,White,8,0
+2f22 Changing Room,The Coloring,Black,4,0
+,,Pink,8,0
+,,Sky blue,0c,0
+,,Wood and White,10,0
+,,Wood and Yellow,14,0
+2f2b Exercise Ball,The Ball Color,Blue,4,0
+,,White,8,0
+2f2c Table With Cloth,The Tablecloth,Red,0,1
+,,Green,0,2
+,,Lace,0,3
+,,Clothes,0,8
+2f2d Dinnerware,The Usage,After Use,4,0
+2f2e Drafting Table,The Diagram,Machine,4,0
+,,Airplane,8,0
+2f2f Hanger Rack,The Clothing,Men's,4,0
+2f30 Pastel Low Table,The Countertop Color,Yellow,4,0
+,,Green,8,0
+,,Aqua,0c,0
+2f31 Fish On A Board,The Fish,Blue Fish,4,0
+,,Red Fish,8,0
+2f32 Menu Chalkboard,The Presentation,Illustration,4,0
+,,Cute,4,0
+,,Photo,0c,0
+2f33 Wooden Counter,The Body Color,Brown,4,0
+,,Gray,8,0
+,,White,0c,0
+,The Display,Dots,0,1
+,,Clothes,0,8
+2f34 Unicycle,The Body Color,Blue,4,0
+,,Yellow,8,0
+2f38 Metal Flagpole,The Flag,Village daruma,0,1
+,,Clothes,0,8
+2f3a Bowl Sink,The Shelf Color,Dark Wood,4,0
+,,Gray,8,0
+2f3b Ball,The Type,Soccer ball,4,0
+,,Volleyball,8,0
+,,Dodgeball,0c,0
+2f3d Cypress Plant,The Leaf Color,Deep Green,4,0
+2f3e Flower Display Case,The Body Color,Black,4,0
+,,White,8,0
+,,Red,0c,0
+2f44 Garden Chair,The Body Color,Yellow,4,0
+,,Green,8,0
+,,Blue,0c,0
+,,Red,10,0
+,,Orange,14,0
+2f49 Darden Table,The Body Color,Yellow,4,0
+,,Green,8,0
+,,Blue,0c,0
+,,Red,10,0
+,,Orange,14,0
+2f4a Do Not Enter Sign,The Type,No Entry,4,0
+,,No Parking,8,0
+,,No U Turns 0c,0,0
+,,Direction indication,10,0
+,,Bicycles Only,14,0
+,,Pedestrians only,18,0
+2f50 Trash Bags,The Bag Color,Black,4,0
+,,Blue,8,0
+2f51 Lecture Hall Bench,The Body Color,White,4,0
+2f52 Lecture Hall Desk,The Body Color,White,4,0
+2f53 Meeting Room Table,The Countertop Color,Wood Grain,4,0
+2f5d Office Clock,The Border Color,Black,4,0
+,,Silver,8,0
+2f5e Flower Wreath,The Flower Color,Blue,4,0
+,,Orange,8,0
+,,Pink,0c,0
+2f60 Meeting Room Chair,The Chair Color,Green,4,0
+,,Red,8,0
+,,Gray,0c,0
+2f62 Beauty Salon Cart,The Wagon Color,Black,4,0
+2f63 Money Box,The Body Color,Red,4,0
+,,Green,8,0
+,,White,0c,0
+,,Gray,10,0
+2f66 Merchandise Table,The Body Color,Pink,4,0
+,,Blue,8,0
+,,Black,0c,0
+,,Red and white,10,0
+2f68 Tennis Racket,The Body Color,Blue,4,0
+,,Yellow,8,0
+,,Green,0c,0
+,,Purple,10,0
+,,Pink,14,0
+,,Sky blue,18,0
+2f69 Cash Tray,The Body Color,Wood Grain 04,0,0
+,,Plastic,8,0
+,,Black pleather,0c,0
+2f6e Lectern With Mic,The Body Color,Brown,4,0
+,,Black,8,0
+2f6f Gift Pile,The Wrapping,Toy Day,4,0
+,,Pastel,8,0
+2f70 Zen Backpack,The Body Color,Black,4,0
+,,Yellow,8,0
+,,Pink,0c,0
+,,Aqua,10,0
+,,Covered Red,14,0
+,,Covered Black,18,0
+2f71 Fancy Display Case,The Body Color,Black,4,0
+,,White,8,0
+,,Beige,0c,0
+,,Red,10,0
+,,Green,14,0
+2f72 Popcorn,The Menu,Caramel,4,0
+,,Chocolate,8,0
+,,Berry,0c,0
+2f73 Counter Seat,The Body Color,Yellow,4,0
+,,Brown,8,0
+,,Green,0c,0
+,,Blue,10,0
+,,Purple,14,0
+,,White,18,0
+,,Black,1c,0
+2f74 Zen Chair,The Chair Color,Dark Wood,4,0
+,,Black,8,0
+,The Cushion Color,Mustard,0,1
+,,Young grass,0,2
+,,Lapis lazuli,0,3
+,,Clothes,0,8
+2f75 Glass Screen,The Body Color,Dark Wood,4,0
+,,Beige,8,0
+2f76 Busing Station,The Body Color,Dark Wood,4,0
+,,Black,8,0
+,,White,0c,0
+2f77 Round Cloth Table,The Top Cloth,Red,4,0
+,,Blue,8,0
+,,Green,0c,0
+,,Yellow,10,0
+,,Purple,14,0
+,,Black,18,0
+,,Brown,1c,0
+,The Cloth Underneath,Red,0,1
+,,Sky blue,0,2
+,,Green,0,3
+,,Purple,0,4
+,,White,0,5
+,,Clothes,0,8
+2f78 Waiting Room Bench,The Chair Color,Sky Blue,4,0
+,,Pink,8,0
+,,White,0c,0
+,,Brown,10,0
+,,Black,14,0
+2f79 Square Minitable,The Countertop Color,Orange wood,4,0
+,,Dark wood,8,0
+,,White,0c,0
+,,Black,10,0
+2f7a Metal Rim Table,The Countertop Color,Yellow,4,0
+,,Green,8,0
+,,Blue,0c,0
+,,Orange,10,0
+,,White,14,0
+,,Black,18,0
+2f7e Iron Garden Chair,The Body Color,Black,4,0
+,,White,8,0
+2f7f Iron Garden Table,The Body Color,Black,4,0
+,,White,8,0
+2f80 Kiddie Meal,The Menu,Lunch Combo B,4,0
+,,Lunch Combo C,8,0
+2f82 Billboard,The Board Color,Blue,4,0
+,,Beige,8,0
+,The Poster,Sports,0,1
+,,Concert,0,2
+,,Clothes,0,8
+2f83 Water Pot,The Body Color,Yellow,4,0
+,,Green,8,0
+,,Blue,0c,0
+,,Brown,10,0
+,,Black,14,0
+2f84 Stack Of Clothes,The Bottom Clothing,Blue Green shirts,4,0
+,,White shirts,8,0
+,,Black shirts,0c,0
+,The Clothing on Top,Blue shirt,0,1
+,,White shirt,0,2
+,,Black shirt,0,3
+,,Clothes,0,8
+2f90 Drink Machine,The Body Color,Blue,4,0
+,,White,8,0
+2f91 Snare Drum,The Shell Color,Black,4,0
+,,Orange,8,0
+,,White,0c,0
+2f92 Wii U Console,The Coloring,Black,4,0
+2f93 Document Stack,The Type of Documents,Writing Paper,0,1
+,,Exam Paper,0,2
+,,Clothes,0,8
+2f94 Imperial Chair,The Body Color,Red,4,0
+2f95 Fruit Drink,The Menu,Green Apple Soda,4,0
+,,Iced coffee,8,0
+,,Iced tea,0c,0
+,,Milk,10,0
+2f96 Shaved Ice,The Menu,Strawberry,4,0
+,,Blue raspberry,8,0
+,,Lemon,0c,0
+,,Sweet Bean green tea,10,0
+2f97 Theater Seat,The Chair Color,Blue,4,0
+,,Navy,8,0
+,,Gray,0c,0
+,,Yellow,10,0
+,,Green,14,0
+,,Beige,18,0
+2f98 Garbage Bin,The Body Color,Blue,4,0
+,,Green,8,0
+2f99 Slipper Rack,The Slippers,Earth tones,4,0
+,,Flower,8,0
+,,Vinyl,0c,0
+2f9a Teppanyaki Grill,The Menu,Okonomiyaki,4,0
+,,Takoyaki,8,0
+,,Taiyaki,0c,0
+2f9b Red Cash Register,The Body Color,Blue,4,0
+,,Orange,8,0
+,,Green,0c,0
+,,Gray,10,0
+2f9d Handbag,The Body Color,Yellow,4,0
+,,Emerald,8,0
+,,Vermilion,0c,0
+,,White,10,0
+,,Black,14,0
+,,Zebra print,18,0
+,,Leopard print,1c,0
+2fa5 Sushi Menu,The Menu Border,Aluminum frame,4,0
+,,Red frame,8,0
+2fa6 Electric Bass,The Body Color,Fire red,0,1
+,,Sky blue,0,2
+,,Lemon yellow,0,3
+,,Coral pink,0,4
+,,Pure white,0,5
+,,Cosmo black,0,6
+,,Emerald green,0,7
+,,Clothes,0,8
+2fa7 Cafeteria Table,The Countertop Color,Red,4,0
+,,White,8,0
+2fa8 Serving Cart,The Body Color,Yellow Silver,4,0
+,,Silver,8,0
+2fa9 Reception Counter,The Body Color,Pink,4,0
+,,Blue,8,0
+,,Brown,0c,0
+,,Navy,10,0
+,,Marble,14,0
+2faa Outdoor Sign,The Signboard,Blue signboard,0,1
+,,Clothes,0,8
+2fab Stacked Magazines,The Front Cover,Sports,0,1
+,,Music,0,2
+,,Cuisine,0,3
+,,Character,0,4
+,,Clothes,0,8
+2fac Narrow Clock,The Body Color,Green,4,0
+,,Blue,8,0
+,,Orange,0c,0
+,,Purple,10,0
+,,Black,14,0
+2fad Pen Case chair,The Body Color,Striped blue,4,0
+,,Gingham checkered,8,0
+,,Green,0c,0
+,,Yellow,10,0
+,,Dotted Blue,14,0
+2fae Wood Display Stand,The Body Color,Light blue,4,0
+,,White,8,0
+2faf Casual Display Stand,The Body Color,Wood And Black tile,4,0
+,,Black And White tile,8,0
+,,White And Black tile,0c,0
+2fb0 Fancy Display Stand,The Body Color,Black,4,0
+,,White,8,0
+2fb1 Basic Display Stand,The Body Color,Black,4,0
+,,Orange,8,0
+,,Pink,0c,0
+,,Green,10,0
+,,Blue,14,0
+2fb2 Store Shelf,The Body Color,Black,4,0
+,,Wood,8,0
+,,Pink,0c,0
+2fb3 Floor Light,The Light Color,Red,4,0
+,,Orange,8,0
+,,Yellow,0c,0
+,,Green,10,0
+,,Blue,14,0
+,,Purple,18,0
+2fb4 Brown Seat,The Body Color,Dark brown,4,0
+,,Beige,8,0
+,,Brown checkered,0c,0
+,,Beige checkered,10,0
+2fb5 Lunch Pack,The Box Color,Pink,4,0
+,,Blue,8,0
+,,White,0c,0
+2fb6 Set Lunch,The Menu,Fried Fish meal,4,0
+,,Fried Egg meal,8,0
+2fb7 Skateboard Rack,The Board Type,Graphic,4,0
+,,Wood,8,0
+,,Cute,0c,0
+2fb8 White Office Desk,The Body Color,Black,4,0
+,,White and Black,8,0
+2fb9 Basic Trash Can,The Body Color,Dark wood,4,0
+,,Silver,8,0
+,,Black,0c,0
+,,Blue,10,0
+,,Red,14,0
+2fba Salon Chair,The Cushion Color,Brown,4,0
+,,Red,8,0
+,,Black,0c,0
+,,Beige,10,0
+,,Green,14,0
+2fbb Daimyo's tray,The Countertop Color,Gold leaf,4,0
+,,Cloud pattern,8,0
+2fbc Single Rose,The Rose Color,Yellow,4,0
+,,Blue,8,0
+,,White,0c,0
+,,Purple,10,0
+2fbd Mug,The Beverage,Hot Chocolate,4,0
+,,Latte art,8,0
+,,Soup,0c,0
+,The Mug Design,Flowers,0,1
+,,Checkered,0,2
+,,Colorful mosaic,0,3
+,,Clothes,0,8
+2fbe Record Box,The Box,Cabinet,0,1
+,,Clothes,0,8
+2fbf Cruiser Bike,The Body Color,Yellow,4,0
+,,Blue,8,0
+,,Brown,0c,0
+,,Black,10,0
+,,Pink,14,0
+2fca Electric Sign,The Signboard,Pink signboard,0,1
+,,Clothes,0,8
+2fcb Round Electric Sign,The Signboard,Green signboard,0,1
+,,Clothes,0,8
+2fcc Desk Mirror,The Base Color,Red,4,0
+,,Pink,8,0
+,,Blue,0c,0
+,,White,10,0
+,,Black,14,0
+2fcd Locker Stack,The Color,Blue,4,0
+,,Green,8,0
+,,Red,0c,0
+,,Stickered white,10,0
+,,Stickered blue,14,0
+,,Stickered green,18,0
+,,Stickered red,1c,0
+2fce Garden Faucet,The Body Color,Wood grain,4,0
+,,White,8,0
+2fcf Barrel Planter,The Barrel Color,Dark,4,0
+,,White,8,0
+,,Blue,0c,0
+2fd2 Natural Bench,The Sofa Color,Banana yellow,4,0
+,,Surly green,8,0
+,,Off White,0c,0
+,,Turquoise,10,0
+,,Goose gray,14,0
+2fd3 Natural Chair,The Sofa Color,Banana yellow,4,0
+,,Surly green,8,0
+,,Off White,0c,0
+,,Turquoise,10,0
+,,Goose gray,14,0
+2fd4 Natural Table,The Body Color,Natural brown,4,0
+,,Light brown,8,0
+2fd5 Natural Low Table,The Body Color,Natural brown,4,0
+,,Light brown,8,0
+2fd6 Natural Lamp,The Shade Color,Banana yellow,4,0
+,,Surly green,8,0
+,,Off White,0c,0
+,,Turquoise,10,0
+,,Goose Gray,14,0
+2fd7 Elegant Chair,The Body Color,White,4,0
+,,Green and gray,8,0
+,,Black,0c,0
+2fd8 Elegant Bench,The Body Color,White,4,0
+,,Green and gray,8,0
+,,Black,0c,0
+2fd9 Compact Car,The Theme Color,Pink,4,0
+,,Light Blue,8,0
+,,Light Green,0c,0
+,,Black,10,0
+2fda Sports Car,The Theme Color,Blue,4,0
+,,Yellow,8,0
+,,White,0c,0
+,,Navy,10,0
+2fdc Pasta,The Menu,Carbonara,4,0
+,,Peperoncino,8,0
+,,Cod roe,0c,0
+,,Pesto genovese,10,0
+,,Squid Ink,14,0
+2fe0 Ivy Partition,The Body Color,Dark brown,4,0
+,,Turquoise,8,0
+2fe1 Cup Of Tea,The Menu,Mint tea,4,0
+,,Jasmine tea,8,0
+,,Mallow Blue tea,0c,0
+,,Lavender tea,10,0
+2fe2 Donburi,The Menu,Tofu,4,0
+,,Eel,8,0
+,,Salmon roe,0c,0
+2fe3 Simple Panel,The Border Color,Black,4,0
+,,Brown,8,0
+,,Dark brown,0c,0
+,,Green,10,0
+,,Red,14,0
+,,Blue,18,0
+,The Fabric,Black,0,1
+,,Wood,0,2
+,,Navy,0,3
+,,Zen,0,4
+,,Clothes,0,8
+2fe7 Sample Case,The Body Color,White,4,0
+,,Red,8,0
+2fe8 Counter Table,The Body Color,Zen,4,0
+,,Imperial,8,0
+,,Marble,0c,0
+2fe9 Jewelry Case,The Box Color,White,4,0
+,,Yellow,8,0
+,,Pink,0c,0
+2fea Decoy Duck,The Paint,Female,4,0
+,,No paint,8,0
+2feb Curry Plate,The Menu,Dal curry,4,0
+,,Vegetable korma,8,0
+,,Saag murgh,0c,0
+2fed Autograph Cards,The Signer,Performer's autograph,0,1
+,,Clothes,0,8
+2fee Decorative Plate,The Picture Pattern,Butterfly,4,0
+,,Bird,8,0
+2fef Tile Screen,The Tile Color,Red,4,0
+3003 Reception Window,The Body Color,Black,4,0
+,,Wood grain,8,0
+3004 Warming Buffet,The Menu,Caprese,4,0
+,,Fruit,8,0
+,,Croquette,0c,0
+,,Loaf,10,0
+3005 Cupcake,The Menu,Chocolate,4,0
+,,Colorful cream,8,0
+,,Colorful pop,0c,0
+,,Flower,10,0
+,,Animal,14,0
+3006 Glass Teapot,The Menu,Mint tea,4,0
+,,Jasmine tea,8,0
+,,Mallow Blue tea,0c,0
+,,Lavender tea,10,0
+3007 Espresso Machine,The Body Color,Yellow,4,0
+,,Green,8,0
+,,Sky blue,0c,0
+,,Black,10,0
+3008 Floor Seat,The Chair Color,Dark Brown,4,0
+,,Black,8,0
+,The Cushion,Yellow,0,1
+,,Green,0,2
+,,Blue,0,3
+,,Purple,0,4
+,,Clothes,0,8
+3009 Imperial Pot,The Menu,Fried egg and crab,4,0
+,,Fried rice,8,0
+,,Sweet and sour,0c,0
+,,Chop suey,10,0
+300a Console Table,The Body Color,White,4,0
+,,Black,8,0
+300b Round Pillow,The Body Color,Brown,4,0
+,,Green,8,0
+,,White,0c,0
+,,Black,10,0
+300c Hanging Chair,The Basket Color,Red,4,0
+,,Brown,8,0
+,,Blue,0c,0
+,,White,10,0
+300d Garden Lantern,The Body Color,White,4,0
+,,Blue,8,0
+,,Pink,0c,0
+300f Scooter,The Body Color,Pink,4,0
+,,Blue,8,0
+,,Monochrome,0c,0
+3010 Round Cushion,The Pattern Color,White,4,0
+,,Yellow,8,0
+,,Aqua green,0c,0
+,,Navy,10,0
+,,Brown,14,0
+3011 Basket Chair,The Frame,Dark Brown,4,0
+,,White,8,0
+,,Black,0c,0
+,The Cushion,Gray,0,1
+,,Brown,0,2
+,,Blue,0,3
+,,Green,0,4
+,,Clothes,0,8
+3012 Zen Cushion,The Fabric,Green,0,1
+,,Crimson,0,2
+,,Yellow,0,3
+,,Monotone,0,4
+,,Clothes,0,8
+3013 Scattered Papers,The Paper,Writing Paper,0,1
+,,Drawing Paper,0,2
+,,Clothes,0,8
+3015 New Nintendo 3DS,The System Color,Black,4,0
+,The Cover Plate,Black,0,1
+,,Polka Dot,0,2
+,,Clothes,0,8
+3016 New Nintendo 3DS XL,The System Color,Metallic Black,4,0
+3025 Item Box,The Body Color,Red,4,0
+3026 Poogie,The Outfit,Pygmalion,4,0
+,,Pretty in pink,8,0
+3027 Hunter's Hive,The Grade,Rare,4,0
+3036 Giant Stew Pot,The Menu,Curry,4,0
+,,Tomato soup,8,0
+,,Green liquid,0c,0
+3037 Carriage,The Body Color,Black,4,0
+,,Brown,8,0
+,,Pink,0c,0
+,,Green,10,0
+3038 Teacup Ride,The Body Color,Red,4,0
+,,Blue,8,0
+,,Monotone,0c,0
+3039 Giant Teddy Bear,The Fabric,Pink,4,0
+,,Blue,8,0
+,,Yellow green,0c,0
+,,Black,10,0
+,The Outfit,Collared shirt,0,1
+,,Fluffy jacket,0,2
+,,Clothes,0,8
+303a Robot Hero,The Body Color,Blue,4,0
+,,White,8,0
+,,Black,0c,0
+303b Monitor Tower,The Body Color,White,4,0
+,The Screen,Virus,0,1
+,,Clothes,0,8
+303c Tent,The Body Color,Blue,4,0
+,,Pink,8,0
+,,Red stripes,0c,0
+,,Colorful,10,0
+303d Propeller Plane,The Body Color,Red,4,0
+,,Orange,8,0
+,,Green,0c,0
+,,Black,10,0
+,,White,14,0
+,The Symbol,Heart,0,1
+,,Clothes,0,8
+303e Submarine,The Body Color,Red,4,0
+,,Blue,8,0
+,,Black,0c,0
+303f Luxury Car,The Body Color,White,4,0
+,,Silver,8,0
+,,Gold,0c,0
+3040 Large egg,The Shell,Cracked,4,0
+,,Hollow,8,0
+3041 Inflatable Resetti,The Expression,Annoyed,4,0
+3047 Squid Bumper,The Body Color,Orange,4,0
+,,Neon green,8,0
+,,Purple,0c,0
+,,Blue,10,0
+,,Lime green,14,0
+,,Blood orange,18,0
+,,Soda,1c,0
+3048 Inkopolis Chair,The Design Color,Marie's color,4,0
+,,Sea color,8,0
+,,Mountain color,0c,0
+,,Flashy color,10,0
+,,Glaring color,14,0
+,,Gaudy color,18,0
+,,Pop Color,1c,0
+3049 Splattershot,The Ink Color,Blue,4,0
+,,Lime green,8,0
+,,Purple,0c,0
+,,Pink,10,0
+,,Turquoise,14,0
+,,Yellow,18,0
+,,Green,1c,0
+304a Left Splatfest Sign,The Ink Color,Rock purple,4,0
+,,Lemon yellow,8,0
+,,Hero red,0c,0
+,,Love red,10,0
+,,Artsy purple,14,0
+,,Mountain red,18,0
+,,Callie Pink,1c,0
+,The Team,Team Rice,0,1
+,,Team Callie,0,2
+,,Clothes,0,8
+304b Right Splatfest Sign,The Ink Color,Pop green,4,0
+,,Milk white,8,0
+,,Villain purple,0c,0
+,,Money yellow,10,0
+,,Science orange,14,0
+,,Ocean green,18,0
+,,Marie green,1c,0
+,The Team,Team Bread,0,1
+,,Team Marie,0,2
+,,Clothes,0,8
+304c Splatoon Spawn Point,The Ink Color,Blue,4,0
+,,Lime green,8,0
+,,Purple,0c,0
+,,Pink,10,0
+,,Turquoise,14,0
+,,Yellow,18,0
+,,Green,1c,0
+304d Standing TV,The Body Color,Black,4,0
+,,Pink,8,0
+,,Sky blue,0c,0
+304e Desert Island Map,The Type of Island,Intermediate,4,0
+,,Advanced,8,0
+304f Frying Pan,The Content,Burnt food,4,0
+,,Empty,8,0
+3050 Desert Island Table,The Lawn Color,Green,4,0
+3051 Desert Island Stool,The Lawn Color,Green,4,0
+308c Rupee,The Value,Blue Rupee,4,0
+,,Red Rupee,8,0
+,,Purple Rupee,0c,0
+,,Huge Rupee,10,0
+,,Silver Rupee,14,0
+3097 Nintendo DSi Bench,The Body Color,Black,4,0
+309b Otomon egg,The Type of Egg,Fanged Beast egg,4,0
+,,Bird Wyvern egg,8,0
+,,Leviathan egg,0c,0
+,,Fanged Wyvern egg,10,0
+,,Brute Wyvern egg,14,0
+,,Herbivore egg,18,0
+,,Elder Dragon egg,1c,0
+30a2 Fruit Panel Cushion,The Cushion Pattern,Orange,4,0
+,,Pear,8,0
+,,Banana,0c,0
+,,Grape,10,0
+,,Peach,14,0
+30c7 Shop Mat,The Mat Design,Supermarket,4,0
+,,Department store,8,0
+30c8 Museum Mat,The Mat Design,Paintings,4,0
+,,Fish,8,0
+,,Bugs,0c,0
+,,Fossils,10,0

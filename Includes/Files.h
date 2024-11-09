@@ -5,6 +5,7 @@
 #define PATH_ACRE		    "E:/Vapecord/Data/Acre/acre%X.bin"
 #define PATH_PICON		    "E:/Vapecord/Data/PlayerIcon/Player%d.bin"
 #define ITEMLIST            "E:/Vapecord/Data/item.txt"
+#define CUSTOMITEMLIST      "E:/Vapecord/Data/customitem.txt"
 #define PATH_FWKCOLOR       "E:/Vapecord/Data/FWKColors.txt"
 #define PATH_CUSTOMCOLOR    "E:/Vapecord/Data/color.txt"
 

@@ -10,6 +10,10 @@ namespace CTRPluginFramework {
 	int ItemFileLength = 0;
 	bool ItemFileExists = true;
 
+	CustomItemVec* CustomItemList = new CustomItemVec();
+	int CustomItemFileLength = 0;
+	bool CustomItemFileExists = true;
+
 //reserver data into pointer so search doesnt take so long
 	void ReserveItemData(ItemVec* out) {
 		if(out == nullptr) 
@@ -47,6 +51,109 @@ namespace CTRPluginFramework {
 		}
 	}
 
+	void ReserveCustomItemData(CustomItemVec* out) {
+		if(out == nullptr) 
+			return;
+
+		File file(CUSTOMITEMLIST, File::READ);
+		if(!file.IsOpen()) {
+			CustomItemFileExists = false;
+			return;
+		}
+
+		std::string line;
+		LineReader reader(file);
+
+		CustomItemFileLength = 0; //reset file length if called again
+		u32 lineNumber = 1;
+		int count = 0;
+
+		Item currItem;
+		CustomItemPartVec currParts;
+		std::string currPartName[2] = {"", ""};
+		CustomItemOptionVec currPartOptions[2];
+		int currPartIndex = 0;
+		std::vector<std::string> currLineVec;
+
+		//Read our file until the last line
+		for(; reader(line); lineNumber++) {
+			currLineVec.clear();
+			//If line is empty, skip it
+			if(line.empty())
+				continue;
+			
+			std::string part;
+			int i = 0;
+
+			for(;;i++) {
+				// Search our delimiter
+				auto pos = line.find(",");
+
+				// If we couldn't find the delimiter, use the rest of the string
+				if(pos == std::string::npos) {
+					part = line;
+				}
+				else if (i == 0 && pos >= 4) {
+					part = line.substr(0, 4);
+				}
+				else {
+					part = line.substr(0, pos);
+				}
+
+				g_Trim(part);
+				currLineVec.push_back(part);
+
+				if(pos == std::string::npos) {
+					break;
+				}
+				else {
+					line = line.substr(pos + 1);
+				}
+			}
+
+			if(currLineVec.empty()) {
+				continue;
+			}
+			// Parse the line into custom item data
+			else {
+				if (!currLineVec[0].empty()) {
+					// First push the previous item if we have one
+					if(currItem.ID != 0) {
+						for (int i=0; i<2; i++) {
+							std::sort(currPartOptions[i].begin(), currPartOptions[i].end());
+							currParts.Name.push_back(currPartName[i]);
+							currParts.Options.push_back(currPartOptions[i]);
+						}
+
+						out->ID.push_back(currItem);
+						out->CustomParts.push_back(currParts);
+						CustomItemFileLength++; //adds to file length to know how many items are in it
+					}
+					currItem = (Item)StringToHex<u16>(currLineVec[0], 0xFFFF);
+					currParts.Name.clear();
+					currParts.Options.clear();
+					for (int i=0; i<2; i++) {
+						currPartName[i] = {""};
+						currPartOptions[i].clear();
+					}
+				}
+				if (!currLineVec[1].empty()) {
+					currPartIndex = StringToHex<u16>(currLineVec[3], 0xFFFF) > 0 ? 0 : 1;
+					currPartName[currPartIndex] = currLineVec[1];
+				}
+				if (!currLineVec[2].empty()) {
+					u16 flag = 0;
+					if(currPartIndex == 0)
+						flag = StringToHex<u16>(currLineVec[3], 0xFFFF) << 8;
+					else
+						flag = StringToHex<u16>(currLineVec[4], 0xFFFF);
+
+					currPartOptions[currPartIndex].push_back(std::make_pair(flag, currLineVec[2]));
+				}
+			}
+		}
+	}
+
 	int ItemSearch(const std::string& match, ItemVec& out) {
 		int count = 0;
 	//Read our file until the last line
@@ -76,8 +183,90 @@ namespace CTRPluginFramework {
 		return "???";
 	}
 
-	u32 Inventory::GetCurrentItemData(int i) {
-		if(GameHelper::BaseInvPointer() == 0)
+    int GetCustomItemIndex(Item ItemID)
+    {
+		//Read our file until the last line
+		for(int i = 0; i < CustomItemFileLength; ++i) {
+			if(CustomItemList->ID[i] == ItemID) {
+				return i;
+			}
+		}
+
+        return -1;
+    }
+
+	int GetCustomClothesIndex(int currentIndex) {
+		switch(currentIndex){
+			case -1: return 0x327;
+			case 0x1F4: return 0x2BD;
+			case 0x2BC: return 0x1F3;
+			case 0x328: return 0;
+		}
+		return currentIndex;
+	}
+
+	std::string GetCustomClothesName(u16 clothesIndex)
+	{
+		std::string clothesName = "";
+		const u16 clothesOffset = clothesIndex > 0x1f3 ? 0x23c5 : 0x248d;
+
+		IDList::GetSeedName(Item{(u16)(clothesIndex + clothesOffset), 0}, clothesName);
+		return Utils::Format("Clothes (%s)", clothesName.c_str());
+	}
+
+	bool GetCustomOption(int customItemIndex, bool isPart1, u16& optionIndex, int increment, std::pair<u16, std::string>& option)
+	{
+		CustomItemOptionVec options = CustomItemList->CustomParts[customItemIndex].Options[isPart1 ? 0 : 1];
+
+		if(options.size() == 0)
+			return false;
+
+		bool useClothes = !isPart1 && options.back().first == 0x8;
+
+		int newOptionIndex = optionIndex;
+		increment = std::clamp(increment, -1, 1);
+		newOptionIndex += increment;
+
+		if(useClothes && options[newOptionIndex - 1].first == 0x8 && increment > 0) {
+			newOptionIndex = 8;
+		}	
+		else if(useClothes && newOptionIndex < 8 && increment < 0) {
+			newOptionIndex = std::min((int)options.size() - 1, newOptionIndex);
+		}
+
+		// Check if we can display clothing
+		if(useClothes) {
+			newOptionIndex = GetCustomClothesIndex(newOptionIndex);
+		}
+		else {
+			newOptionIndex = std::clamp(newOptionIndex, 0, (int)options.size());
+		}
+
+		if (increment == 0 || newOptionIndex != optionIndex) {
+			
+			optionIndex = newOptionIndex;
+			
+			if (optionIndex > 0) {
+				if (useClothes && optionIndex >= 0x8) {
+					option = std::make_pair(optionIndex, GetCustomClothesName(optionIndex));
+				}
+				else {
+					option = options[optionIndex - 1];
+				}
+			}
+			else {
+				option = std::make_pair(0x0, "Original");
+			}
+			
+			return true;
+		}
+
+		return false;
+	}
+
+    u32 Inventory::GetCurrentItemData(int i)
+    {
+        if(GameHelper::BaseInvPointer() == 0)
 			return -1;
 		
 		if(!Opened())
@@ -89,7 +278,7 @@ namespace CTRPluginFramework {
 		u32 Items = *(u32 *)(*(u32 *)(GameHelper::BaseInvPointer() + 0xC) + 0xEC); //0x20 32DCEC10
 		
 		return (Items + (0xAC * i));
-	}
+    }
 
 //Get current inventory ID
 	u8 Inventory::GetCurrent() {

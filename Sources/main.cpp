@@ -226,6 +226,7 @@ prevent any issues with freezing of the plugin
 		InitMenu(menu);
 
 		ReserveItemData(ItemList);
+		ReserveCustomItemData(CustomItemList);
 
 		menu->OnFirstOpening = StartingMsg;
 

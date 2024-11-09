@@ -247,6 +247,9 @@ namespace CTRPluginFramework {
 			delete ItemList; //delete ItemList to clear a lot of memory to prevent memory issues if game is suspended
 			ItemList = nullptr;
 
+			delete CustomItemList;
+			CustomItemList = nullptr;
+
 			WasSuspended = true;
 			goto reset;
 		}
@@ -255,6 +258,9 @@ namespace CTRPluginFramework {
 	/*If Game unsuspenses*/
 		ItemList = new ItemVec();
 		ReserveItemData(ItemList); //redo ItemList when game is unsuspended
+
+		CustomItemList = new CustomItemVec();
+		ReserveCustomItemData(CustomItemList);
 		
 		WasSuspended = false;
 

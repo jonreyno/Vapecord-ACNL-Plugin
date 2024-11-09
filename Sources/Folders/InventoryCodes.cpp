@@ -182,33 +182,83 @@ namespace CTRPluginFramework {
 		}
 	}
 
-	void CycleCatalogFurnitureOption1(bool forward)
-	{
-		static Address FurnitureOption1(0x32D97683);
-		
-		u8 val = 0;
-		Process::Read8(FurnitureOption1.addr, val);
-		
-		val += forward ? 4 : -4;
-		val = val > 0x34 ? 0 : val < 0 ? 0x34 : val;
-		
-		Process::Write8(FurnitureOption1.addr, val);
+	static Address currentItemAdr(0x32D97680);
+	static Address itemSelectedAdr(0x0094F32C);
+	static Item currentCatalogItem;
+	static int ciIndex = -1;
+	static u16 optionPartIndex[2] = {0, 0};
+	static const std::pair<u16, std::string> originalPart = std::make_pair(0, "Original");
+	static std::pair<u16, std::string> optionPart[2] = {originalPart, originalPart};
+
+	void UpdateCustomFlags() {
+		u16 flags = optionPart[0].first + optionPart[1].first;
+		//OSD::Notify(Utils::Format("Setting Flags: %04X", flags), Color::Green);
+		Process::Write16(currentItemAdr.addr + 2, flags);
 	}
 
-	void CycleCatalogFurnitureOption2(bool forward)
+	void CycleCatalogFurniturePart(int increment, int partIndex)
 	{
-		static Address FurnitureOption2(0x32D97682);
-		
-		u8 val = 0;
-		Process::Read8(FurnitureOption2.addr, val);
-		
-		val += forward ? 1 : -1;
-		val = val > 0x1F3 ? 0 : val < 0 ? 0x1F3 : val;
-		
-		Process::Write8(FurnitureOption2.addr, val);
+		if (GetCustomOption(ciIndex, partIndex == 0, optionPartIndex[partIndex], increment, optionPart[partIndex])) {
+			//OSD::Notify(Utils::Format("%s: %s (%04X) Index: %d", CustomItemList->CustomParts[ciIndex].Name[partIndex].c_str(), optionPart[partIndex].second.c_str(), optionPart[partIndex].first, optionPartIndex[partIndex]), Color::Green);
+			UpdateCustomFlags();
+		}
+	}
+
+	bool ResetPartIndex(u8 partIndex)
+	{
+		if(optionPartIndex[partIndex] > 0) {
+			optionPartIndex[partIndex] = 0;
+			optionPart[partIndex] = originalPart;
+			return true;
+		}
+
+		return false;
+	}
+
+	void ResetCustomFlags(int partIndex = -1)
+	{
+		bool updated = false;
+
+		if(partIndex >= 0) {
+			updated = ResetPartIndex(partIndex);
+		}
+		else
+		{
+			for(int i=0; i<2; i++) {
+				updated = ResetPartIndex(i) || updated;
+			}
+		}
+
+		if (updated)
+			UpdateCustomFlags();
+	}
+
+	//catalog OSD
+	bool catalogOSD(const Screen &screen) {
+		if(!screen.IsTop || ciIndex < 0)
+			return 0;
+
+		u16 itemSelected;
+		Process::Read16(itemSelectedAdr.addr, itemSelected);
+
+		if(itemSelected == 0x7ffe)
+			return 0;
+
+		CustomItemOptionVec options1 = CustomItemList->CustomParts[ciIndex].Options[0];
+		CustomItemOptionVec options2 = CustomItemList->CustomParts[ciIndex].Options[1];
+
+		if(options1.size() > 0) {
+			screen.Draw(Utils::Format("%s: %s", CustomItemList->CustomParts[ciIndex].Name[0].c_str(), optionPart[0].second.c_str()), 10, 10);
+		}
+
+		if(options2.size() > 0) {
+			screen.Draw(Utils::Format("%s: %s", CustomItemList->CustomParts[ciIndex].Name[1].c_str(), optionPart[1].second.c_str()), 10, 20);
+		}
+		return 1;
 	}
 
 	static bool isCatalogOpen = false;
+
 //Catalog To Pockets
 	void catalog(MenuEntry *entry) {
 		static Hook catalogHook;
@@ -217,7 +267,6 @@ namespace CTRPluginFramework {
 		if(entry->WasJustActivated()) {
 			catalogHook.Initialize(cHook.addr, (u32)CatalogGetItem);
 			catalogHook.SetFlags(USE_LR_TO_RETURN);
-
 			catalogHook.Enable();
 
 			SetAllItemsBuyable(false);
@@ -242,6 +291,33 @@ namespace CTRPluginFramework {
 		
 		if(isCatalogOpen)
 		{
+			u16 currentID;
+			Process::Read16(currentItemAdr.addr, currentID);
+
+			if(GameHelper::GetItemCategory(Item{currentID, 0}) == Item_Category::Furniture && currentCatalogItem.ID != currentID){
+				currentCatalogItem = Item(currentID, 0);
+				ciIndex = GetCustomItemIndex(currentCatalogItem);
+
+				if(ciIndex >= 0) {
+					for(int i = 0; i < 2; i++) {
+						if(!CustomItemList->CustomParts[ciIndex].Options[i].empty()) {
+							if(optionPartIndex[i] <= CustomItemList->CustomParts[ciIndex].Options[i].size()
+							|| CustomItemList->CustomParts[ciIndex].Options[i].back().first == 0x8) {
+								CycleCatalogFurniturePart(0, i);
+								continue;
+							}
+						}
+						ResetCustomFlags(i);
+					}
+					
+					OSD::Run(catalogOSD);
+				}
+				else {
+					OSD::Stop(catalogOSD);
+					ResetCustomFlags();
+				}
+			}
+
 			// Toggle all items buyable
 			if(entry->Hotkeys[1].IsPressed()) {
 				SetAllItemsBuyable(!allItemsBuyable);
@@ -256,21 +332,27 @@ namespace CTRPluginFramework {
 				}
 			}
 			
-			if(entry->Hotkeys[2].IsPressed()) {
-				CycleCatalogFurnitureOption1(false);
+			// Listen for custom cycle inputs
+			if(ciIndex >= 0) {
+				if(entry->Hotkeys[2].IsPressed()) {
+					CycleCatalogFurniturePart(-1, 0);
+				}
+				
+				if(entry->Hotkeys[3].IsPressed()) {
+					CycleCatalogFurniturePart(1, 0);
+				}
+				
+				if(entry->Hotkeys[4].IsPressed()) {
+					CycleCatalogFurniturePart(-1, 1);
+				}
+				
+				if(entry->Hotkeys[5].IsPressed()) {
+					CycleCatalogFurniturePart(1, 1);
+				}
 			}
-			
-			if(entry->Hotkeys[3].IsPressed()) {
-				CycleCatalogFurnitureOption1(true);
-			}
-			
-			if(entry->Hotkeys[4].IsPressed()) {
-				CycleCatalogFurnitureOption2(false);
-			}
-			
-			if(entry->Hotkeys[5].IsPressed()) {
-				CycleCatalogFurnitureOption2(true);
-			}
+		}
+		else {
+			OSD::Stop(catalogOSD);
 		}
 		
 		if(Inventory::GetCurrent() != 0x7C && isCatalogOpen) {
@@ -282,6 +364,7 @@ namespace CTRPluginFramework {
 			catalogHook.Disable();
 			SetAllItemsBuyable(false);
 			isCatalogOpen = false;
+			OSD::Stop(catalogOSD);
 		}
 	}
 //Chat Text2Item

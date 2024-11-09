@@ -12,10 +12,26 @@ namespace CTRPluginFramework {
 		std::vector<std::string> Name;
 		std::vector<Item> ID;
 	};
+
+	typedef std::vector<std::pair<u16, std::string>> CustomItemOptionVec;
+
+	struct CustomItemPartVec {
+		std::vector<std::string> Name;
+		std::vector<CustomItemOptionVec> Options;
+	};
+
+	struct CustomItemVec {
+		std::vector<Item> ID;
+		std::vector<CustomItemPartVec> CustomParts;
+	};
 	
 	extern ItemVec* ItemList;
 	extern int ItemFileLength;
 	extern bool ItemFileExists;
+
+	extern CustomItemVec* CustomItemList;
+	extern int CustomItemFileLength;
+	extern bool CustomItemFileExists;
 
 	using slotReader = void(*)(u32, u8);
 
@@ -35,7 +51,10 @@ namespace CTRPluginFramework {
 	}
 
 	void ReserveItemData(ItemVec* out);
+	void ReserveCustomItemData(CustomItemVec* out);
 	int ItemSearch(const std::string& match, ItemVec& out);
 	std::string ItemIDSearch(Item ItemID);
+	int GetCustomItemIndex(Item ItemID);
+	bool GetCustomOption(int customItemIndex, bool isPart1, u16& optionIndex, int increment, std::pair<u16, std::string>& option);
 }
 #endif
